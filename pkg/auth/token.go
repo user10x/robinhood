@@ -74,8 +74,7 @@ func (authRequest *AuthRequest) mfaRequired(ctx context.Context) ([]byte, error)
 	if mfaResponse.MfaRequired {
 		fmt.Println("MFA Required")
 
-		input, _ := fmt.Scanf("%s", "")
-		authRequest.MfaCode = input
+		_, _ = fmt.Scanf("%s", &authRequest.MfaCode)
 
 		authPayload, err = json.Marshal(&authRequest)
 
@@ -84,6 +83,28 @@ func (authRequest *AuthRequest) mfaRequired(ctx context.Context) ([]byte, error)
 		}
 	}
 	return authPayload, nil
+}
+
+func readCachedToken() (*AuthResponse, bool) {
+
+	home, err := os.UserHomeDir()
+	if err != nil {
+		return nil, false
+	}
+	tokenFile := home + "/.robinhood/token.json"
+	fBytes, err := os.ReadFile(tokenFile)
+	if err != nil {
+		return nil, false
+	}
+	var authResponse *AuthResponse
+	err = json.Unmarshal(fBytes, &authResponse)
+
+	if err != nil {
+
+	}
+
+	return authResponse, true
+
 }
 
 func cacheAuthInfo(authResponse *AuthResponse) error {
@@ -123,6 +144,13 @@ func cacheAuthInfo(authResponse *AuthResponse) error {
 // GetToken returns a token from the Robinhood API
 func (authRequest *AuthRequest) GetToken(ctx context.Context) (*AuthResponse, error) {
 
+	var authResponse *AuthResponse
+
+	authResponse, ok := readCachedToken()
+
+	if ok {
+		return authResponse, nil
+	}
 	client := &http.Client{
 		Timeout: time.Duration(100 * time.Second),
 	}
@@ -157,7 +185,6 @@ func (authRequest *AuthRequest) GetToken(ctx context.Context) (*AuthResponse, er
 
 	//fmt.Println(string(body))
 
-	var authResponse *AuthResponse
 	err = json.Unmarshal(body, &authResponse)
 	if err != nil {
 		return nil, err
