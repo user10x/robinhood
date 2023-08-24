@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/spf13/cobra"
+	"log"
 	"os"
 	"robinhood/pkg/auth"
 	"robinhood/pkg/instruments"
@@ -26,7 +27,7 @@ func getToken(ctx context.Context) *auth.AuthResponse {
 
 	// save auth info to a json file
 	if err != nil {
-		fmt.Println("error writing token", err)
+		fmt.Println("error getting token", err)
 		panic(err)
 	}
 	return authResponse
@@ -59,8 +60,11 @@ var listInstruments = &cobra.Command{
 
 		const host = "https://api.robinhood.com/"
 
-		_, _ = instruments.ListInstruments(ctx, host, ar.AccessToken)
-
+		_, err := instruments.ListInstruments(ctx, host, ar.AccessToken)
+		if err != nil {
+			log.Fatal(err)
+		}
+		//fmt.Println(instruments) pretty print json and table
 	}}
 
 func init() {

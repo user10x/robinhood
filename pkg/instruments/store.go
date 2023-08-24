@@ -8,11 +8,13 @@ import (
 	"io"
 	"net/http"
 	"robinhood/pkg/models/client/robinhood"
+	"robinhood/pkg/storage/firestore"
 	"time"
 )
 
-func ListInstruments(ctx context.Context, host string, bearerToken string) (*robinhood.Instruments, error) {
+func ListAndStoreInstruments(ctx context.Context, host string, bearerToken string) ([]string, error) {
 
+	inst := make([]string, 0)
 	client := &http.Client{
 		Timeout: time.Duration(100 * time.Second),
 	}
@@ -45,6 +47,15 @@ func ListInstruments(ctx context.Context, host string, bearerToken string) (*rob
 		return nil, errors.New(fmt.Sprintf("Error unmarssahalling:: %v", err))
 	}
 
-	return results, nil
+	f, err := firestore.NewFireStore(ctx, "States", "bc-roc-poc")
+	if err != nil {
+		return nil, err
+	}
+	err = f.InsertInstruments(results)
+	if err != nil {
+		return nil, err
+	}
+	f.Commit()
+	return inst, nil
 
 }

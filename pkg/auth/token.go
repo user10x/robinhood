@@ -100,7 +100,7 @@ func readCachedToken() (*AuthResponse, bool) {
 	err = json.Unmarshal(fBytes, &authResponse)
 
 	if err != nil {
-
+		return nil, false
 	}
 
 	return authResponse, true
@@ -166,7 +166,6 @@ func (authRequest *AuthRequest) GetToken(ctx context.Context) (*AuthResponse, er
 		return nil, err
 	}
 	req.Header.Set("Content-Type", "application/json")
-
 	req.Header.Set("agent", "Robinhood/823 (iPhone; iOS 7.1.2; Scale/2.00)")
 
 	resp, err := client.Do(req)
@@ -191,7 +190,7 @@ func (authRequest *AuthRequest) GetToken(ctx context.Context) (*AuthResponse, er
 	}
 
 	// cache token
-	defer cacheAuthInfo(authResponse)
+	cacheAuthInfo(authResponse)
 
 	return authResponse, nil
 
