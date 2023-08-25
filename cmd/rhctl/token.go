@@ -26,15 +26,15 @@ func GetToken(ctx context.Context) *auth.AuthResponse {
 	auth := &auth.AuthRequest{
 		Username:    c.Username,
 		Password:    c.Password,
-		GrantType:   "password",
-		ClientId:    "c82SH0WZOsabOXGP2sxqcj34FxkvfnWRZBKlBjFS",
+		GrantType:   c.GrantType,
+		ClientId:    c.ClientId,
 		ExpiresIn:   86400,
-		DeviceToken: "c547515b-67a5-4e60-9768-8e211915a84c",
-		Scope:       "internal",
+		DeviceToken: c.DeviceToken,
+		Scope:       c.Scope,
 		//MfaCode:     "",
 	}
 
-	authResponse, err := auth.GetToken(ctx)
+	authResponse, err := auth.GetToken(ctx, c.Host)
 
 	// save auth info to a json file
 	if err != nil {

@@ -12,8 +12,6 @@ import (
 	"time"
 )
 
-const host = "https://api.robinhood.com/oauth2/token/"
-
 type MfaRequiredResponse struct {
 	MfaRequired bool   `json:"mfa_required"`
 	MfaType     string `json:"mfa_type"`
@@ -40,7 +38,7 @@ type AuthResponse struct {
 	BackupCode   interface{} `json:"backup_code"`
 }
 
-func (authRequest *AuthRequest) mfaRequired(ctx context.Context) ([]byte, error) {
+func (authRequest *AuthRequest) mfaRequired(ctx context.Context, host string) ([]byte, error) {
 
 	authPayload, err := json.Marshal(authRequest)
 
@@ -83,6 +81,61 @@ func (authRequest *AuthRequest) mfaRequired(ctx context.Context) ([]byte, error)
 		}
 	}
 	return authPayload, nil
+}
+
+// GetToken returns a token from the Robinhood API
+func (authRequest *AuthRequest) GetToken(ctx context.Context, host string) (*AuthResponse, error) {
+
+	var authResponse *AuthResponse
+
+	authResponse, ok := readCachedToken()
+
+	if ok {
+		return authResponse, nil
+	}
+	client := &http.Client{
+		Timeout: time.Duration(100 * time.Second),
+	}
+
+	payloadBytes, err := authRequest.mfaRequired(ctx, host)
+
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequestWithContext(ctx, "POST", host, bytes.NewBuffer(payloadBytes))
+	if err != nil {
+		return nil, err
+	}
+	req.Header.Set("Content-Type", "application/json")
+	req.Header.Set("agent", "Robinhood/823 (iPhone; iOS 7.1.2; Scale/2.00)")
+
+	resp, err := client.Do(req)
+	if err != nil {
+		return nil, err
+	}
+	if resp.StatusCode > 300 {
+		fmt.Println(resp.StatusCode)
+		// return
+	}
+	defer resp.Body.Close()
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+
+	//fmt.Println(string(body))
+
+	err = json.Unmarshal(body, &authResponse)
+	if err != nil {
+		return nil, err
+	}
+
+	// cache token
+	cacheAuthInfo(authResponse)
+
+	return authResponse, nil
+
 }
 
 func readCachedToken() (*AuthResponse, bool) {
@@ -139,59 +192,4 @@ func cacheAuthInfo(authResponse *AuthResponse) error {
 		return err
 	}
 	return nil
-}
-
-// GetToken returns a token from the Robinhood API
-func (authRequest *AuthRequest) GetToken(ctx context.Context) (*AuthResponse, error) {
-
-	var authResponse *AuthResponse
-
-	authResponse, ok := readCachedToken()
-
-	if ok {
-		return authResponse, nil
-	}
-	client := &http.Client{
-		Timeout: time.Duration(100 * time.Second),
-	}
-
-	payloadBytes, err := authRequest.mfaRequired(ctx)
-
-	if err != nil {
-		return nil, err
-	}
-
-	req, err := http.NewRequestWithContext(ctx, "POST", host, bytes.NewBuffer(payloadBytes))
-	if err != nil {
-		return nil, err
-	}
-	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("agent", "Robinhood/823 (iPhone; iOS 7.1.2; Scale/2.00)")
-
-	resp, err := client.Do(req)
-	if err != nil {
-		return nil, err
-	}
-	if resp.StatusCode > 300 {
-		fmt.Println(resp.StatusCode)
-		// return
-	}
-	defer resp.Body.Close()
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, err
-	}
-
-	//fmt.Println(string(body))
-
-	err = json.Unmarshal(body, &authResponse)
-	if err != nil {
-		return nil, err
-	}
-
-	// cache token
-	cacheAuthInfo(authResponse)
-
-	return authResponse, nil
-
 }
