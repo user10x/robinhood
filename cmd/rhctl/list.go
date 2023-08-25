@@ -47,7 +47,7 @@ var listInstrumentsCmd = &cobra.Command{
 
 		ctx := context.Background()
 
-		ar := GetToken(ctx)
+		ar, err := GetToken(ctx)
 
 		_, err = instruments.ListInstruments(ctx, c.Host, ar.AccessToken)
 

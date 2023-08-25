@@ -11,17 +11,16 @@ var tokenCmd = &cobra.Command{
 	Use:   "login",
 	Short: "Send login request",
 	Run: func(cmd *cobra.Command, args []string) {
-		// Create a JSON object
-
 		ctx := context.Background()
 
-		ar := GetToken(ctx)
-
-		fmt.Println(ar)
-
+		_, err := GetToken(ctx)
+		if err != nil {
+			panic(err)
+		}
+		fmt.Printf("sucessfully logged in!\n")
 	}}
 
-func GetToken(ctx context.Context) *auth.AuthResponse {
+func GetToken(ctx context.Context) (*auth.AuthResponse, error) {
 
 	auth := &auth.AuthRequest{
 		Username:    c.Username,
@@ -35,12 +34,9 @@ func GetToken(ctx context.Context) *auth.AuthResponse {
 	}
 
 	authResponse, err := auth.GetToken(ctx, c.Host)
-
-	// save auth info to a json file
 	if err != nil {
-		fmt.Println("error getting token", err)
-		panic(err)
+		return nil, err
 	}
-	return authResponse
+	return authResponse, nil
 
 }
