@@ -17,7 +17,7 @@ var tokenCmd = &cobra.Command{
 		if err != nil {
 			panic(err)
 		}
-		fmt.Printf("sucessfully logged in!\n")
+		fmt.Printf("sucessfully logged in! \n")
 	}}
 
 func GetToken(ctx context.Context) (*auth.AuthResponse, error) {

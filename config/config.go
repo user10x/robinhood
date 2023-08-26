@@ -26,7 +26,7 @@ func NewConfig() *Config {
 		panic(err)
 	}
 
-	expires := os.Getenv("EXPIRESIN")
+	expires := os.Getenv("EXPIRES_IN")
 	expiresIn, _ := strconv.Atoi(expires)
 
 	return &Config{
@@ -34,10 +34,10 @@ func NewConfig() *Config {
 		Project:     os.Getenv("PROJECT"),
 		Username:    os.Getenv("USERNAME"),
 		Password:    os.Getenv("PASSWORD"),
-		GrantType:   os.Getenv("PASSWORD"),
-		ClientId:    os.Getenv("PASSWORD"),
+		GrantType:   os.Getenv("GRANT_TYPE"),
+		ClientId:    os.Getenv("CLIENT_ID"),
 		ExpiresIn:   expiresIn,
-		DeviceToken: os.Getenv("PASSWORD"),
-		Scope:       os.Getenv("PASSWORD"),
+		DeviceToken: os.Getenv("DEVICE_TOKEN"),
+		Scope:       os.Getenv("SCOPE"),
 	}
 }
