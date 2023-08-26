@@ -28,8 +28,7 @@ func NewConfig() *Config {
 
 	expires := os.Getenv("EXPIRES_IN")
 	expiresIn, _ := strconv.Atoi(expires)
-
-	return &Config{
+	config := &Config{
 		Host:        os.Getenv("HOST"),
 		Project:     os.Getenv("PROJECT"),
 		Username:    os.Getenv("USERNAME"),
@@ -40,4 +39,6 @@ func NewConfig() *Config {
 		DeviceToken: os.Getenv("DEVICE_TOKEN"),
 		Scope:       os.Getenv("SCOPE"),
 	}
+
+	return config
 }

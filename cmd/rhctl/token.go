@@ -27,7 +27,7 @@ func GetToken(ctx context.Context) (*auth.AuthResponse, error) {
 		Password:    c.Password,
 		GrantType:   c.GrantType,
 		ClientId:    c.ClientId,
-		ExpiresIn:   86400,
+		ExpiresIn:   c.ExpiresIn,
 		DeviceToken: c.DeviceToken,
 		Scope:       c.Scope,
 		//MfaCode:     "",

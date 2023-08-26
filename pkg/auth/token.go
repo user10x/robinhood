@@ -10,7 +10,6 @@ import (
 	"net/http"
 	"os"
 	"path"
-	"time"
 )
 
 type MfaRequiredResponse struct {
@@ -94,17 +93,15 @@ func (authRequest *AuthRequest) GetToken(ctx context.Context, host string) (*Aut
 	if ok {
 		return authResponse, nil
 	}
-	client := &http.Client{
-		Timeout: time.Duration(100 * time.Second),
-	}
+	client := &http.Client{}
 
-	payloadBytes, err := authRequest.mfaRequired(ctx, host)
+	payloadBytes, err := authRequest.mfaRequired(ctx, fmt.Sprintf("%s/oauth2/token/", host))
 
 	if err != nil {
 		return nil, err
 	}
 
-	req, err := http.NewRequestWithContext(ctx, "POST", host, bytes.NewBuffer(payloadBytes))
+	req, err := http.NewRequestWithContext(ctx, "POST", fmt.Sprintf("%s/oauth2/token/", host), bytes.NewBuffer(payloadBytes))
 	if err != nil {
 		return nil, err
 	}
@@ -144,11 +141,11 @@ func (authRequest *AuthRequest) GetToken(ctx context.Context, host string) (*Aut
 
 func readCachedToken() (*AuthResponse, bool) {
 
-	home, err := os.UserHomeDir()
+	tokenFile, err := getTokenFile()
+
 	if err != nil {
 		return nil, false
 	}
-	tokenFile := home + "/.robinhood/token.json"
 	fBytes, err := os.ReadFile(tokenFile)
 	if err != nil {
 		return nil, false
@@ -162,7 +159,6 @@ func readCachedToken() (*AuthResponse, bool) {
 	}
 
 	fileInfo, err := os.Stat(tokenFile)
-
 	if err != nil {
 		return nil, false
 	}
@@ -175,22 +171,27 @@ func readCachedToken() (*AuthResponse, bool) {
 
 }
 
-func writeAuthLocally(authResponse *AuthResponse) (string, error) {
+func getTokenFile() (string, error) {
 	homedir, _ := os.UserHomeDir()
 	tokenFileName := "token.json"
 	err := os.MkdirAll(path.Join(homedir, ".robinhood"), 0755)
 	if err != nil {
 		return "", err
 	}
+	return path.Join(homedir, ".robinhood/", tokenFileName), nil
+}
 
-	fileInfo, err := os.Stat(path.Join(homedir, ".robinhood/", tokenFileName))
+func writeAuthLocally(authResponse *AuthResponse) (string, error) {
+
+	tokenFile, err := getTokenFile()
 
 	if err != nil {
 		return "", err
 	}
+	fileInfo, _ := os.Stat(tokenFile)
 
 	if fileInfo != nil {
-		err = os.Remove(path.Join(homedir, ".robinhood/", tokenFileName))
+		err = os.Remove(tokenFile)
 		if err != nil {
 			return "", err
 		}
@@ -198,12 +199,11 @@ func writeAuthLocally(authResponse *AuthResponse) (string, error) {
 	}
 
 	jsonBytes, err := json.Marshal(authResponse)
-	tokFile := path.Join(homedir, ".robinhood/", tokenFileName)
-	err = os.WriteFile(tokFile, jsonBytes, 0644)
+	err = os.WriteFile(tokenFile, jsonBytes, 0644)
 
 	if err != nil {
 		return "", err
 	}
 
-	return tokFile, nil
+	return tokenFile, nil
 }
