@@ -4,15 +4,13 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
 	"os"
 	"path"
-	"time"
 )
-
-const host = "https://api.robinhood.com/oauth2/token/"
 
 type MfaRequiredResponse struct {
 	MfaRequired bool   `json:"mfa_required"`
@@ -40,7 +38,7 @@ type AuthResponse struct {
 	BackupCode   interface{} `json:"backup_code"`
 }
 
-func (authRequest *AuthRequest) mfaRequired(ctx context.Context) ([]byte, error) {
+func (authRequest *AuthRequest) mfaRequired(ctx context.Context, host string) ([]byte, error) {
 
 	authPayload, err := json.Marshal(authRequest)
 
@@ -85,83 +83,25 @@ func (authRequest *AuthRequest) mfaRequired(ctx context.Context) ([]byte, error)
 	return authPayload, nil
 }
 
-func readCachedToken() (*AuthResponse, bool) {
-
-	home, err := os.UserHomeDir()
-	if err != nil {
-		return nil, false
-	}
-	tokenFile := home + "/.robinhood/token.json"
-	fBytes, err := os.ReadFile(tokenFile)
-	if err != nil {
-		return nil, false
-	}
-	var authResponse *AuthResponse
-	err = json.Unmarshal(fBytes, &authResponse)
-
-	if err != nil {
-		return nil, false
-	}
-
-	return authResponse, true
-
-}
-
-func cacheAuthInfo(authResponse *AuthResponse) error {
-	homedir, _ := os.UserHomeDir()
-	tokenFileName := "token.json"
-	err := os.MkdirAll(path.Join(homedir, ".robinhood"), 0755)
-	if err != nil {
-		return err
-	}
-
-	fileInfo, err := os.Stat(path.Join(homedir, ".robinhood/", tokenFileName))
-
-	if err != nil {
-		return err
-	}
-
-	fileInfo.ModTime()
-
-	if fileInfo != nil {
-		err = os.Remove(path.Join(homedir, ".robinhood/", tokenFileName))
-		if err != nil {
-			return err
-		}
-
-	}
-
-	jsonBytes, err := json.Marshal(authResponse)
-
-	err = os.WriteFile(path.Join(homedir, ".robinhood/", tokenFileName), jsonBytes, 0644)
-
-	if err != nil {
-		return err
-	}
-	return nil
-}
-
-// GetToken returns a token from the Robinhood API
-func (authRequest *AuthRequest) GetToken(ctx context.Context) (*AuthResponse, error) {
+// GetToken returns a token from the Robinhood API, reads if the file is there locally
+// else queries api
+func (authRequest *AuthRequest) GetToken(ctx context.Context, host string) (*AuthResponse, error) {
 
 	var authResponse *AuthResponse
 
 	authResponse, ok := readCachedToken()
-
 	if ok {
 		return authResponse, nil
 	}
-	client := &http.Client{
-		Timeout: time.Duration(100 * time.Second),
-	}
+	client := &http.Client{}
 
-	payloadBytes, err := authRequest.mfaRequired(ctx)
+	payloadBytes, err := authRequest.mfaRequired(ctx, fmt.Sprintf("%s/oauth2/token/", host))
 
 	if err != nil {
 		return nil, err
 	}
 
-	req, err := http.NewRequestWithContext(ctx, "POST", host, bytes.NewBuffer(payloadBytes))
+	req, err := http.NewRequestWithContext(ctx, "POST", fmt.Sprintf("%s/oauth2/token/", host), bytes.NewBuffer(payloadBytes))
 	if err != nil {
 		return nil, err
 	}
@@ -173,8 +113,7 @@ func (authRequest *AuthRequest) GetToken(ctx context.Context) (*AuthResponse, er
 		return nil, err
 	}
 	if resp.StatusCode > 300 {
-		fmt.Println(resp.StatusCode)
-		// return
+		return nil, errors.New(fmt.Sprintf("failed %v", resp.Status))
 	}
 	defer resp.Body.Close()
 	body, err := io.ReadAll(resp.Body)
@@ -190,8 +129,81 @@ func (authRequest *AuthRequest) GetToken(ctx context.Context) (*AuthResponse, er
 	}
 
 	// cache token
-	cacheAuthInfo(authResponse)
+	_, err = writeAuthLocally(authResponse)
+
+	if err != nil {
+		return nil, err
+	}
 
 	return authResponse, nil
 
+}
+
+func readCachedToken() (*AuthResponse, bool) {
+
+	tokenFile, err := getTokenFile()
+
+	if err != nil {
+		return nil, false
+	}
+	fBytes, err := os.ReadFile(tokenFile)
+	if err != nil {
+		return nil, false
+	}
+
+	var authResponse *AuthResponse
+	err = json.Unmarshal(fBytes, &authResponse)
+
+	if err != nil {
+		return nil, false
+	}
+
+	fileInfo, err := os.Stat(tokenFile)
+	if err != nil {
+		return nil, false
+	}
+
+	if fileInfo.ModTime().Second()-authResponse.ExpiresIn >= 0 {
+		return nil, false
+	}
+
+	return authResponse, true
+
+}
+
+func getTokenFile() (string, error) {
+	homedir, _ := os.UserHomeDir()
+	tokenFileName := "token.json"
+	err := os.MkdirAll(path.Join(homedir, ".robinhood"), 0755)
+	if err != nil {
+		return "", err
+	}
+	return path.Join(homedir, ".robinhood/", tokenFileName), nil
+}
+
+func writeAuthLocally(authResponse *AuthResponse) (string, error) {
+
+	tokenFile, err := getTokenFile()
+
+	if err != nil {
+		return "", err
+	}
+	fileInfo, _ := os.Stat(tokenFile)
+
+	if fileInfo != nil {
+		err = os.Remove(tokenFile)
+		if err != nil {
+			return "", err
+		}
+
+	}
+
+	jsonBytes, err := json.Marshal(authResponse)
+	err = os.WriteFile(tokenFile, jsonBytes, 0644)
+
+	if err != nil {
+		return "", err
+	}
+
+	return tokenFile, nil
 }
