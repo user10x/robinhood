@@ -4,7 +4,10 @@ import (
 	"context"
 	"fmt"
 	"github.com/spf13/cobra"
+	"os"
 	"robinhood/pkg/instruments"
+	"robinhood/pkg/models/client/robinhood"
+	"strconv"
 )
 
 var instrumentsCmd = &cobra.Command{
@@ -14,7 +17,8 @@ var instrumentsCmd = &cobra.Command{
 
 func init() {
 	instrumentsCmd.AddCommand(listInstrumentsCmd)
-	listInstrumentsCmd.Flags().String("order-by", "createdAtTime", "order by column")
+	listInstrumentsCmd.Flags().Int("limit", 10, "limit output")
+	listInstrumentsCmd.Flags().String("order-by", "desc", "order by column")
 }
 
 var listInstrumentsCmd = &cobra.Command{
@@ -28,11 +32,6 @@ var listInstrumentsCmd = &cobra.Command{
 			return err
 		}
 		fmt.Println(limit)
-		includeDeltas, err := cmd.Flags().GetBool("include-deltas")
-		if err != nil {
-			return err
-		}
-		fmt.Println(includeDeltas)
 
 		orderBy, err := cmd.Flags().GetString("order-by")
 		if err != nil {
@@ -40,16 +39,47 @@ var listInstrumentsCmd = &cobra.Command{
 		}
 		fmt.Println(orderBy)
 
-		releaseType, _ := cmd.Flags().GetString("type")
-		fmt.Println(releaseType)
-		buildType, _ := cmd.Flags().GetString("build-type")
-		fmt.Println(buildType)
-
 		ctx := context.Background()
 
 		ar, err := GetToken(ctx)
 
-		_, err = instruments.ListInstruments(ctx, c.Host, ar.AccessToken)
+		instruments, err := instruments.ListInstruments(ctx, c.Host, ar.AccessToken)
+		if len(instruments.Results) < limit {
+			limit = len(instruments.Results)
+		}
+		printInstruments(cmd, instruments.Results[:limit])
 
 		return nil
 	}}
+
+func printInstruments(cmd *cobra.Command, instruments []robinhood.Instrument) {
+	outputFormat, _ := cmd.Flags().GetString("output")
+	output := os.Stdout
+	switch outputFormat {
+	case "json":
+		e := newJSONEncoder(output)
+		_ = e.Encode(instruments)
+	default:
+		table := TableWriter(output)
+		table.SetHeader([]string{"id", "name", "symbol", "country", "listDate", "market", "tradeRatio", "test", "spac", "ipoasupportdsp"})
+		for _, r := range instruments {
+			table.Append([]string{
+				//r.Results,
+				r.Id,
+				r.Name,
+				r.Symbol,
+				r.Country,
+				r.ListDate,
+				r.Market,
+				//r.InternalHaltReason,
+				r.DayTradeRatio,
+				strconv.FormatBool(r.IsTest),
+				strconv.FormatBool(r.IsSpac),
+				strconv.FormatBool(r.IpoAccessSupportsDsp),
+				//r.CreatedAtTime.AsTime().Format(time.RFC3339),
+				//strconv.FormatBool(r.IsActive),
+			})
+		}
+		table.Render()
+	}
+}
