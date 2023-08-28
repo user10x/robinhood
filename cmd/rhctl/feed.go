@@ -18,7 +18,7 @@ var feedCmd = &cobra.Command{
 
 func init() {
 	feedCmd.AddCommand(listFeedCmd)
-	listFeedCmd.Flags().String("output", "json", "json/table")
+	listFeedCmd.Flags().String("output", "", "json/table")
 
 }
 
@@ -35,7 +35,7 @@ var listFeedCmd = &cobra.Command{
 		}
 		category := ""
 		if len(args) >= 0 {
-			category = "popular_lists"
+			category = args[0]
 			fmt.Println(category)
 		}
 
@@ -57,7 +57,6 @@ func printFeed(cmd *cobra.Command, feeds []robinhood.Feed) {
 		_ = e.Encode(feeds)
 	default:
 		table := TableWriter(output)
-
 		table.SetHeader([]string{"id", "category", "displayLabel", "templates", "contentType", "relatedNames"})
 		for _, f := range feeds {
 			contentType := ""
