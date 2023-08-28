@@ -1,0 +1,2968 @@
+{
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "display_label": "Indicators",
+      "category": "indicators",
+      "templates": [
+        "indicators"
+      ],
+      "contents": [
+        {
+          "content_type": "indicator",
+          "data": {
+            "label": "S&P 500",
+            "indicator_type": "bonfire_market_index",
+            "indicator_key": "sp_500"
+          },
+          "id": "fa5932b7-4fc9-5291-bbdb-67388f148c84",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "indicator",
+          "data": {
+            "label": "Nasdaq",
+            "indicator_type": "bonfire_market_index",
+            "indicator_key": "nasdaq"
+          },
+          "id": "00045b13-6239-52fd-8b24-2f7309ab4971",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "indicator",
+          "data": {
+            "label": "Bitcoin",
+            "indicator_type": "currency_pair",
+            "indicator_key": "3d961844-d360-45fc-989b-f6fca761d511"
+          },
+          "id": "56604e33-ec7e-591f-a478-ec17ecb0abf0",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=indicators",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "6d18ded6-cdfd-49f9-919b-690faab320d1",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Trending Lists",
+      "category": "popular_lists",
+      "templates": [
+        "lists_chip_grid"
+      ],
+      "contents": [
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "4ef6b14b-e876-4127-9b9c-29703a8a8559",
+            "display_name": "24 Hour Market",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/circle_28/1x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/circle_28/1.5x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/circle_64/1x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/circle_64/1.5x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/header_mob/1x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/header_mob/1.5x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/header_web/1x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/header_web/1.5x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/header_web/3x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/portrait_48/1x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/portrait_48/1.5x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/24_hour_market/portrait_48/3x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 52,
+            "is_badged": true
+          },
+          "id": "4ef6b14b-e876-4127-9b9c-29703a8a8559",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "97b746a5-bc2f-4c64-a828-1af0fc399bf9",
+            "display_name": "Tradable Crypto",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/crypto/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 15,
+            "is_badged": false
+          },
+          "id": "97b746a5-bc2f-4c64-a828-1af0fc399bf9",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "8ce9f620-5bb0-4b6a-8c61-5a06763f7a8b",
+            "display_name": "IPO Access",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/circle_28/1x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/circle_28/1.5x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/circle_64/1x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/circle_64/1.5x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/header_mob/1x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/header_mob/1.5x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/header_web/1x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/header_web/1.5x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/header_web/3x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/portrait_48/1x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/portrait_48/1.5x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/ipo_access/portrait_48/3x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 21,
+            "is_badged": false
+          },
+          "id": "8ce9f620-5bb0-4b6a-8c61-5a06763f7a8b",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "782df05d-eb78-464c-b041-e9ae207053d2",
+            "display_name": "Altcoins",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/altcoins/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 5,
+            "is_badged": false
+          },
+          "id": "782df05d-eb78-464c-b041-e9ae207053d2",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "e8ef4c1f-244f-4db5-a582-c4c37f3c8e8e",
+            "display_name": "100 Most Popular",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/circle_28/1x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/circle_28/1.5x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/circle_64/1x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/circle_64/1.5x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/header_mob/1x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/header_mob/1.5x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/header_web/1x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/header_web/1.5x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/header_web/3x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/portrait_48/1x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/portrait_48/1.5x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/100_most_popular/portrait_48/3x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 100,
+            "is_badged": false
+          },
+          "id": "e8ef4c1f-244f-4db5-a582-c4c37f3c8e8e",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "eddbebe5-34cc-4df1-953c-d3e3cb55bc19",
+            "display_name": "Daily Movers",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/circle_28/1x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/circle_28/1.5x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/circle_64/1x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/circle_64/1.5x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/header_mob/1x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/header_mob/1.5x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/header_web/1x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/header_web/1.5x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/header_web/3x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/portrait_48/1x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/portrait_48/1.5x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/daily_movers/portrait_48/3x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 20,
+            "is_badged": false
+          },
+          "id": "eddbebe5-34cc-4df1-953c-d3e3cb55bc19",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "89144893-4a99-4de8-9048-1f907df83b85",
+            "display_name": "Cannabis",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/cannabis/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 7,
+            "is_badged": false
+          },
+          "id": "89144893-4a99-4de8-9048-1f907df83b85",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "a18cdf8c-46c3-4585-be8f-d2cd57ec8bb1",
+            "display_name": "Upcoming Earnings",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/upcoming_earnings/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 116,
+            "is_badged": false
+          },
+          "id": "a18cdf8c-46c3-4585-be8f-d2cd57ec8bb1",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "3abb2fa2-5599-4357-97ae-e9a113bba139",
+            "display_name": "Technology",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/technology/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 732,
+            "is_badged": false
+          },
+          "id": "3abb2fa2-5599-4357-97ae-e9a113bba139",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "390067d9-8ef5-413b-bce8-63c760c9d4d7",
+            "display_name": "Tech, Media, & Telecom",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/tech_media_telecom/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 844,
+            "is_badged": false
+          },
+          "id": "390067d9-8ef5-413b-bce8-63c760c9d4d7",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "1bb3fceb-3815-4c18-b13a-036dbcff8f3a",
+            "display_name": "Energy",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/energy/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 336,
+            "is_badged": false
+          },
+          "id": "1bb3fceb-3815-4c18-b13a-036dbcff8f3a",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "79651aa7-6744-41fb-af15-21545a18172c",
+            "display_name": "ETFs",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/circle_28/1x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/circle_28/1.5x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/circle_64/1x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/circle_64/1.5x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/header_mob/1x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/header_mob/1.5x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/header_web/1x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/header_web/1.5x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/header_web/3x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/portrait_48/1x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/portrait_48/1.5x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/etfs/portrait_48/3x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 2334,
+            "is_badged": false
+          },
+          "id": "79651aa7-6744-41fb-af15-21545a18172c",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "39849561-15c5-4daa-bc90-341d83f776f8",
+            "display_name": "Pharma",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/pharma/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 537,
+            "is_badged": false
+          },
+          "id": "39849561-15c5-4daa-bc90-341d83f776f8",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "8a47e5c9-1cd1-40c7-981c-494d1de4af1d",
+            "display_name": "Newly Listed Crypto",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/circle_28/1x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/circle_28/1.5x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/circle_64/1x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/circle_64/1.5x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/header_mob/1x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/header_mob/1.5x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/header_web/1x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/header_web/1.5x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/header_web/3x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/portrait_48/1x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/portrait_48/1.5x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/newly_listed_crypto/portrait_48/3x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 1,
+            "is_badged": false
+          },
+          "id": "8a47e5c9-1cd1-40c7-981c-494d1de4af1d",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "e01bf952-fc63-4260-91ab-54ab76d669b5",
+            "display_name": "Growth & Value ETFs",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/growth_and_value_etfs/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 369,
+            "is_badged": false
+          },
+          "id": "e01bf952-fc63-4260-91ab-54ab76d669b5",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "2ac39394-043f-41dc-9af4-a11c2393f261",
+            "display_name": "Energy & Water",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/energy_water/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 348,
+            "is_badged": false
+          },
+          "id": "2ac39394-043f-41dc-9af4-a11c2393f261",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "917fdacd-370d-4443-be78-7f505796552f",
+            "display_name": "Healthcare",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 980,
+            "is_badged": false
+          },
+          "id": "917fdacd-370d-4443-be78-7f505796552f",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "2b93c47b-7c9e-4123-87e9-4fafca8b9b7f",
+            "display_name": "Real Estate",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 236,
+            "is_badged": false
+          },
+          "id": "2b93c47b-7c9e-4123-87e9-4fafca8b9b7f",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "0e28612a-57e9-426c-ae77-0d66a05525ea",
+            "display_name": "Consumer Goods",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/consumer_goods/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 906,
+            "is_badged": false
+          },
+          "id": "0e28612a-57e9-426c-ae77-0d66a05525ea",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "79254266-2900-4fa3-88e6-80220b1eac0f",
+            "display_name": "Software",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/software/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/software/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/software/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/software/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/software/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/software/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/software/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/software/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/software/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/software/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/software/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/software/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/software/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/software/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/software/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/software/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/software/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/software/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/software/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/software/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 434,
+            "is_badged": false
+          },
+          "id": "79254266-2900-4fa3-88e6-80220b1eac0f",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "abf792ed-9b7c-437b-93f3-23cfdf7c1161",
+            "display_name": "Business",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/business/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/business/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/business/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/business/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/business/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/business/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/business/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/business/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/business/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/business/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/business/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/business/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/business/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/business/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/business/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/business/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/business/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/business/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/business/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/business/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 199,
+            "is_badged": false
+          },
+          "id": "abf792ed-9b7c-437b-93f3-23cfdf7c1161",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "148c80d4-1650-49e2-8e3a-55c472d1a757",
+            "display_name": "Automotive",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/automotive/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 136,
+            "is_badged": false
+          },
+          "id": "148c80d4-1650-49e2-8e3a-55c472d1a757",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "d2c090b9-6278-4fcc-a7d6-8b7b69ced8bf",
+            "display_name": "Banking",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/banking/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 566,
+            "is_badged": false
+          },
+          "id": "d2c090b9-6278-4fcc-a7d6-8b7b69ced8bf",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "196033c3-d2da-4b27-8472-c1d2e7764261",
+            "display_name": "Sector ETFs",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/sector_etfs/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 478,
+            "is_badged": false
+          },
+          "id": "196033c3-d2da-4b27-8472-c1d2e7764261",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "4babfae9-ef29-4ee9-8cd1-af0aee4eaefa",
+            "display_name": "Finance",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/finance/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 1355,
+            "is_badged": false
+          },
+          "id": "4babfae9-ef29-4ee9-8cd1-af0aee4eaefa",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "a7d031fb-fe57-49c4-8fb0-ff2059fbe95a",
+            "display_name": "Real Estate ETFs",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/circle_28/1x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/circle_28/1.5x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/circle_64/1x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/circle_64/1.5x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/header_mob/1x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/header_mob/1.5x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/header_web/1x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/header_web/1.5x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/header_web/3x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/portrait_48/1x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/portrait_48/1.5x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/real_estate_etfs/portrait_48/3x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 54,
+            "is_badged": false
+          },
+          "id": "a7d031fb-fe57-49c4-8fb0-ff2059fbe95a",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "8e66cbd4-9b30-45f4-9429-ab1e0ecf4c54",
+            "display_name": "Healthcare Supplies",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/healthcare_supplies/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 222,
+            "is_badged": false
+          },
+          "id": "8e66cbd4-9b30-45f4-9429-ab1e0ecf4c54",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "681d516c-095a-4777-8521-345192dc2f3c",
+            "display_name": "Bond ETFs",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/bond_etfs/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 539,
+            "is_badged": false
+          },
+          "id": "681d516c-095a-4777-8521-345192dc2f3c",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "948914f1-7530-58fd-8eaa-777db8450191",
+            "display_name": "China",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/china/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/china/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/china/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/china/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/china/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/china/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/china/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/china/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/china/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/china/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/china/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/china/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/china/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/china/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/china/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/china/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/china/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/china/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/china/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/china/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 151,
+            "is_badged": false
+          },
+          "id": "948914f1-7530-58fd-8eaa-777db8450191",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        },
+        {
+          "content_type": "list_preview",
+          "data": {
+            "id": "34eb9c76-b308-42c6-b53c-ac2912269646",
+            "display_name": "Commodities ETFs",
+            "image_urls": {
+              "circle_28:1": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/circle_28/1x.png",
+              "circle_28:2": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/circle_28/2x.png",
+              "circle_28:3": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/circle_28/3x.png",
+              "circle_64:1": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/circle_64/1x.png",
+              "circle_64:2": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/circle_64/2x.png",
+              "circle_64:3": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/circle_64/3x.png",
+              "header_mob:1": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/header_mob/1x.png",
+              "header_mob:2": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/header_mob/2x.png",
+              "header_mob:3": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/header_mob/3x.png",
+              "header_web:1": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/header_web/1x.png",
+              "header_web:2": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/header_web/2x.png",
+              "header_web:3": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/header_web/3x.png",
+              "circle_28:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/circle_28/1.5x.png",
+              "circle_64:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/circle_64/1.5x.png",
+              "portrait_48:1": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/portrait_48/1x.png",
+              "portrait_48:2": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/portrait_48/2x.png",
+              "portrait_48:3": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/portrait_48/3x.png",
+              "header_mob:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/header_mob/1.5x.png",
+              "header_web:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/header_web/1.5x.png",
+              "portrait_48:1.5": "https://cdn.robinhood.com/app_assets/list_illustrations/commodities_etfs/portrait_48/1.5x.png"
+            },
+            "owner_type": "robinhood",
+            "item_count": 23,
+            "is_badged": false
+          },
+          "id": "34eb9c76-b308-42c6-b53c-ac2912269646",
+          "reason": null,
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=popular_lists",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "94a1a94e-9237-4946-8478-5905afcc0d00",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Weekly Rundown Article",
+      "category": "market_updates_weekly_rundown",
+      "templates": [
+        "news_hero",
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Investor’s Guild",
+            "title": "A look at the stars: what the debate around real interest rates means",
+            "published_at": "2023-08-23T15:00:00.000000Z",
+            "related_instruments": [],
+            "url": "https://learn.robinhood.com/weekly-rundown/tUkDadMvTpF61S0DqHjld/",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/lFeBXkS6W1woV2zBzFmZ3o-8OrU/aHR0cHM6Ly9pbWFnZXMuY3RmYXNzZXRzLm5ldC9sbm1jMmFhbzZqNTcvWDJHaDFUZGl3Q0pOVkRDMmpkNEJPLzQwNzY1ZjIxYzg1OTI1ZGFiYjYyZGM2OGYwYTU0NGZlL0dldHR5SW1hZ2VzLTEzODgwMDMxODEuanBnP3c9ODg4Jmg9NTAwJmZpdD1maWxsJmZtPWpwZyZxPTk1",
+              "width": 888,
+              "height": 500,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "With measures like inflation starting to fall, but growth rising, and unemployment staying low, many are saying the r* estimate can’t be right.",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": [],
+            "popularity": 0
+          },
+          "id": "c7ec0ccc-0ab0-5c18-bd26-01d26be17a4b",
+          "reason": "curated",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=market_updates_weekly_rundown",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "f2ae0096-ee9f-4edc-97c1-cc27daaa77c0",
+      "logo_asset_name": "robinhood_16",
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Reuters",
+            "title": "Canadian union Unifor votes for strike mandate against Detroit ... - Reuters",
+            "published_at": "2023-08-27T23:43:27.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "6df56bd0-0bf2-44ab-8875-f94fd8526942",
+                "symbol": "F",
+                "name": "Ford Motor Company",
+                "sector": null,
+                "simple_name": "Ford"
+              }
+            ],
+            "url": "https://www.reuters.com/business/autos-transportation/canadian-union-unifor-votes-strike-mandate-against-detroit-three-automakers-2023-08-27/",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/dG_pjq-txPiRULbHl86ZpXY0-jg/aHR0cHM6Ly93d3cucmV1dGVycy5jb20vcmVzaXplci9tYnFfbWl4VGRMaW9HUDdyRURHcDNmMkx1cmc9LzEyMDB4NjI4L3NtYXJ0L2ZpbHRlcnM6cXVhbGl0eSg4MCkvY2xvdWRmcm9udC11cy1lYXN0LTIuaW1hZ2VzLmFyY3B1Ymxpc2hpbmcuY29tL3JldXRlcnMvNVpOSEVHWlJFSk9LVE1EQ1hIQ1pFRTNSNUUuanBn",
+              "width": 1200,
+              "height": 628,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "[1/3] The Ford logo is seen on the grill of an E-transit concept vehicle at the Ford Halewood transmissions plant in Liverpool, Britain, December 1, 2022. REUTE",
+            "is_embedded": false,
+            "logo_hex_code": "FF8000",
+            "authors": "",
+            "popularity": 0
+          },
+          "id": "f2636438-54fd-3538-a26d-2cd5570f6df3",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "21ddd62f-ec7a-4756-91cc-6499d38b57d5",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Bloomberg",
+            "title": "Tech-Reliant Won Counts on Boost From Nvidia’s Sales Forecast",
+            "published_at": "2023-08-27T21:37:51.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb",
+                "symbol": "NVDA",
+                "name": "NVIDIA Corporation Common Stock",
+                "sector": null,
+                "simple_name": "NVIDIA"
+              }
+            ],
+            "url": "https://finance.yahoo.com/news/tech-reliant-won-counts-boost-213751628.html?.tsrc=rss",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/qiAx2q2xbISHaiizq2yNqymdc9k/aHR0cHM6Ly9tZWRpYS56ZW5mcy5jb20vZW4vYmxvb21iZXJnX21hcmtldHNfODQyL2IwNDdkY2ZmYjdkZTM5NjZkMDgzYTRmMzg4MjZmNjYz",
+              "width": 1200,
+              "height": 675,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "(Bloomberg) -- AI chipmaker Nvidia Corp.’s better-than expected earnings may be the catalyst the tech-reliant Korean won is looking for.\n\nMost Read from Bloombe",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "David Finnerty",
+            "popularity": 0
+          },
+          "id": "b4bcfba6-055d-391f-a1a2-619b6f788c2b",
+          "reason": "position",
+          "instrument_id": "a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "87864aaa-7252-4963-aa2f-4b82deba577c",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "video_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_video",
+          "data": {
+            "source": "Bloomberg",
+            "url": "https://stream.mux.com/LxqV8tU4Rsj4R863lSO102WODJgZcZj8F.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJMeHFWOHRVNFJzajRSODYzbFNPMTAyV09ESmdaY1pqOEYiLCJhdWQiOiJ2IiwiZXhwIjoxNjkzMTg3ODY5LCJraWQiOiJFZVlLQzI3UjAxUlNkRzAyMDJBUGJnV2tiNmNHV2pFdU4wMjIiLCJ3aWR0aCI6NjU0LCJoZWlnaHQiOjM2OCwidGltZSI6MH0.mwJeiSZgcVieZbG5VwlJemo3emFDS0mv0tj8uDo3c66h-hxQkm3rHE8o8l2ofp-BBMyJRVl3NKpbSQ6so3btGJNy4yoAB-ToA2q3hG7K1j4UlXWzW-dsfiAGfVx4Z_31daZ94lPKer1ZrmlFom7Aw_bNx9gQcypXB4hBf_byLAI998v73xkJnHElDg-aL0JAFMhO09WEb6CiD6SxcWh7twfS7DhcJfbiIsjt95F9slRs74O8A_ztWkhNASTko6DO78to2y-N0ifj906A5F0NUhg299UAy0a0Hi8RQbFnAkCDvPtDJAQ8_aHSRXgBDwMCa-oEEYrYiOA8BxRfHPKg7w",
+            "title": "Powell's Key Signals From Jackson Hole",
+            "published_at": "2023-08-28T00:13:03+00:00",
+            "related_instruments": [],
+            "thumbnail": {
+              "url": "https://images.robinhood.com/_AXNpsABrkYpkg_F07EcS8vu_20/aHR0cHM6Ly9pbWFnZS5tdXguY29tL0x4cVY4dFU0UnNqNFI4NjNsU08xMDJXT0RKZ1pjWmo4Ri90aHVtYm5haWwuanBnP3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSlNVekkxTmlKOS5leUp6ZFdJaU9pSk1lSEZXT0hSVk5GSnphalJTT0RZemJGTlBNVEF5VjA5RVNtZGFZMXBxT0VZaUxDSmhkV1FpT2lKMElpd2laWGh3SWpveE5qa3pNVGczT0RZNUxDSnJhV1FpT2lKRlpWbExRekkzVWpBeFVsTmtSekF5TURKQlVHSm5WMnRpTm1OSFYycEZkVTR3TWpJaUxDSjNhV1IwYUNJNk5qVTBMQ0pvWldsbmFIUWlPak0yT0N3aWRHbHRaU0k2TUgwLkFPbWJwemN2UGdhZW1iVW9nZkMzUHNqWVktMnU0WjZwbXNzY3IxSkh3MHRRNEpzUS0tZms2MFliQmJ5TUJ3ZUNteHFQOGNoWDJkTGJmWFl3ZzdHQXRpMndMbVM1Q25ET0JuV3hpMEpQR0xaMEp0d0Jhb25STEZsaEJEUlVUUGN3dExlLVYyNDZWNHpNNHNXNm9ud3JWSm1Qc2h5V1NOZXR0aEhPMHY0U2xUV0pzZjFvUW5VM01EeTBqQUVPMEtGZnJxVzdjODgtTWY1Qi1jTDRmUjdaNWV0MlJoSHRVWXQyLWgzNE9PUW5aU0ttWXd5dzZfUjM5dlVsVk41V2UzSVFwUTMwX0ZsOUtmNU8zSWdaZjBvcGVLakZ6cXo2ZUtlYUxwUndIazlvcXhpeS1zV09YU2NQSEpSRWw2VFlaYTNneDluNWg1UkZwcHNnOFppVkp5bVV6UQ",
+              "width": 654,
+              "height": 368,
+              "mimetype": "image"
+            },
+            "captions": "https://robinhood-newsfeed-captions.s3.amazonaws.com/dt%3D2023-08-28/source%3DBloomberg/8de62712-70fc-3486-a8cf-342a8d51070e?AWSAccessKeyId=ASIAYTFIGNHUSOTU34OO&Signature=fWSYuXH6SRt4oy348SsC3BPoqwI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjELn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD%2BV0fIWn3IR0oewXV6yUyL9eMVLSaBKksQMM6lTJdm2wIgDzEPh8uZigVIJh%2FvmpCqcpeoY1wrAkPD0zij%2Bx65G24qnwIIgf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1OTA5MTA3NDUwNjUiDBw8UQVAgVsOeA0s0irzASFCH8gxdBzf02jj60w9tVG%2BobQX4AwTqBo16v7hAS5JmqV2J56eHPoQqctBj%2Bi1Yc%2BtSrJBTB9%2BcWmNV8fMYzV%2ByFcSuzPwion1cM%2F1il4JgTS3qSycvmoagiUWBvI1bLNGA9%2FYA0%2BcdXRmAlK3FhjYGohNWnBW02YbOkkTVh4hl6I8cfqzv8J27iXimxEGNBF6bUqWI2dW%2BW06rjAIITV1gDjiqaqe3ZTvOjPoXjyVlyqVtA%2F7DwR0jVZF%2Fjmy8fjthQZWYoFs39F1HWYhvvIc8S5DawvEhANXA2eoLhx1hLgmBkCVebWX5QfKQTgqTVL7tzDVz6%2BnBjqdAeHORyszn1gd%2B5M2qmA6vA%2BsQquwXByI67az1cx%2FGvlXbca3Fm98K0cc555u%2FHXizMYk0F7aRUkvdbXxzhK50opaTDp2F0q4UhtCUDkdtnWsKiFHRVyjQyMXxjqBsdMbTQ4Uafc06KrZkIgP4KPV7zs4PR7ptD5DuZXAP%2BZdKDSY49Z07UBgPgb4Tn0DPZYkBUF%2FukmuCf4qUzLBYw8%3D&Expires=1693270669",
+            "feedback": {
+              "positive_count": 0
+            }
+          },
+          "id": "8de62712-70fc-3486-a8cf-342a8d51070e",
+          "reason": "top_news",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "98bbacec-9570-456d-8049-f75d36c39af3",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Daily Movers",
+      "category": "top-movers",
+      "templates": [
+        "carousel"
+      ],
+      "contents": [
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "3649ff2c-b35d-4cb0-90a9-46c74e2ad7ce",
+            "symbol": "ARDX",
+            "name": "Ardelyx, Inc. Common Stock",
+            "sector": "Health Technology",
+            "simple_name": "Ardelyx"
+          },
+          "id": "3649ff2c-b35d-4cb0-90a9-46c74e2ad7ce",
+          "reason": null,
+          "instrument_id": "3649ff2c-b35d-4cb0-90a9-46c74e2ad7ce",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "ef6e8e8b-de82-49ca-b510-db598c8d1cf0",
+            "symbol": "EOSE",
+            "name": "Eos Energy Enterprises, Inc. Class A Common Stock",
+            "sector": "Producer Manufacturing",
+            "simple_name": "Eos Energy"
+          },
+          "id": "ef6e8e8b-de82-49ca-b510-db598c8d1cf0",
+          "reason": null,
+          "instrument_id": "ef6e8e8b-de82-49ca-b510-db598c8d1cf0",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "f2b8f1bf-182d-423e-9062-631f9667c3ef",
+            "symbol": "SPXSY",
+            "name": "Spirax Sarco Engineering PLC Unsponsored American Depository Receipt (United Kingdom)",
+            "sector": "Producer Manufacturing",
+            "simple_name": "Spirax Sarco Engineering PLC"
+          },
+          "id": "f2b8f1bf-182d-423e-9062-631f9667c3ef",
+          "reason": null,
+          "instrument_id": "f2b8f1bf-182d-423e-9062-631f9667c3ef",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "ad235c09-81ae-4ecc-b051-0b7d5e54b2b4",
+            "symbol": "PGEN",
+            "name": "Precigen, Inc. Common Stock",
+            "sector": "Health Technology",
+            "simple_name": "Precigen"
+          },
+          "id": "ad235c09-81ae-4ecc-b051-0b7d5e54b2b4",
+          "reason": null,
+          "instrument_id": "ad235c09-81ae-4ecc-b051-0b7d5e54b2b4",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "263404f0-c70e-4cfa-bbd8-32df03a6ffb5",
+            "symbol": "UI",
+            "name": "Ubiquiti Inc. Common Stock",
+            "sector": "Electronic Technology",
+            "simple_name": "Ubiquiti"
+          },
+          "id": "263404f0-c70e-4cfa-bbd8-32df03a6ffb5",
+          "reason": null,
+          "instrument_id": "263404f0-c70e-4cfa-bbd8-32df03a6ffb5",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "d13801d0-729e-4915-9cce-bc366f10ff40",
+            "symbol": "BENF",
+            "name": "Beneficient Class A Common Stock",
+            "sector": "Finance",
+            "simple_name": "Beneficient"
+          },
+          "id": "d13801d0-729e-4915-9cce-bc366f10ff40",
+          "reason": null,
+          "instrument_id": "d13801d0-729e-4915-9cce-bc366f10ff40",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "c923e0f7-6eea-4279-8e5c-f5904fea8501",
+            "symbol": "CARCY",
+            "name": "China Resources Cement Holdings Limited Unsponsored ADR (Cayman Islands)",
+            "sector": "Non-Energy Minerals",
+            "simple_name": "China Resources Cement Holdings Ltd."
+          },
+          "id": "c923e0f7-6eea-4279-8e5c-f5904fea8501",
+          "reason": null,
+          "instrument_id": "c923e0f7-6eea-4279-8e5c-f5904fea8501",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "d213450c-0b58-47d3-9644-e45b706931d5",
+            "symbol": "SIHBY",
+            "name": "Shenzhen Investment Holdings Bay Area Development Company Limited American Depositary Receipts - Sponsored",
+            "sector": "Industrial Services",
+            "simple_name": "Shenzhen Investment Holdings Bay Area Development Company Limited"
+          },
+          "id": "d213450c-0b58-47d3-9644-e45b706931d5",
+          "reason": null,
+          "instrument_id": "d213450c-0b58-47d3-9644-e45b706931d5",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "0dd2a2c1-b3d3-46d8-837e-b8e5cceb2d90",
+            "symbol": "DCYHY",
+            "name": "Discovery Holdings Ltd Unsponsored ADR (South Africa)",
+            "sector": "Finance",
+            "simple_name": "Discovery Holdings Ltd."
+          },
+          "id": "0dd2a2c1-b3d3-46d8-837e-b8e5cceb2d90",
+          "reason": null,
+          "instrument_id": "0dd2a2c1-b3d3-46d8-837e-b8e5cceb2d90",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "fd2d7793-4443-484a-8a65-d0ad3a715438",
+            "symbol": "ALLG",
+            "name": "Allego N.V.",
+            "sector": "Retail Trade",
+            "simple_name": "Allego"
+          },
+          "id": "fd2d7793-4443-484a-8a65-d0ad3a715438",
+          "reason": null,
+          "instrument_id": "fd2d7793-4443-484a-8a65-d0ad3a715438",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "4a4a7c6e-b240-4136-abf3-e7f1d4cd390a",
+            "symbol": "HE",
+            "name": "Hawaiian Electric Industries, Inc.",
+            "sector": "Utilities",
+            "simple_name": "Hawaiian Electric"
+          },
+          "id": "4a4a7c6e-b240-4136-abf3-e7f1d4cd390a",
+          "reason": null,
+          "instrument_id": "4a4a7c6e-b240-4136-abf3-e7f1d4cd390a",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "89137620-803c-4f6f-9608-ad05479ebcb2",
+            "symbol": "PAFRY",
+            "name": "Pan African Resources PLC Sponsored ADR (South Africa)",
+            "sector": "Non-Energy Minerals",
+            "simple_name": "Pan African Resources PLC"
+          },
+          "id": "89137620-803c-4f6f-9608-ad05479ebcb2",
+          "reason": null,
+          "instrument_id": "89137620-803c-4f6f-9608-ad05479ebcb2",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "62823dfa-199d-4b1d-9842-b34ce40485bd",
+            "symbol": "BB",
+            "name": "BlackBerry Limited",
+            "sector": "Technology Services",
+            "simple_name": "Blackberry"
+          },
+          "id": "62823dfa-199d-4b1d-9842-b34ce40485bd",
+          "reason": null,
+          "instrument_id": "62823dfa-199d-4b1d-9842-b34ce40485bd",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "21491217-4342-4ec6-ba39-915ef61182b1",
+            "symbol": "SWDHY",
+            "name": "Skyworth Group Limited American Depositary Receipts - Unsponsored",
+            "sector": "Electronic Technology",
+            "simple_name": "Skyworth Group Limited"
+          },
+          "id": "21491217-4342-4ec6-ba39-915ef61182b1",
+          "reason": null,
+          "instrument_id": "21491217-4342-4ec6-ba39-915ef61182b1",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "786dd87d-a254-441e-90a2-209e49a9e435",
+            "symbol": "SAXJY",
+            "name": "Sa Sa International Holdings Ltd Unsponsored ADR (Cayman Islands)",
+            "sector": "Retail Trade",
+            "simple_name": "Sa Sa International Holdings Ltd."
+          },
+          "id": "786dd87d-a254-441e-90a2-209e49a9e435",
+          "reason": null,
+          "instrument_id": "786dd87d-a254-441e-90a2-209e49a9e435",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "c8f63e57-9690-4e0c-8455-884fa835a647",
+            "symbol": "HIBB",
+            "name": "Hibbett, Inc. Common Stock",
+            "sector": "Retail Trade",
+            "simple_name": "Hibbett"
+          },
+          "id": "c8f63e57-9690-4e0c-8455-884fa835a647",
+          "reason": null,
+          "instrument_id": "c8f63e57-9690-4e0c-8455-884fa835a647",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "ecf97954-2503-4efa-9a05-4d34685e6812",
+            "symbol": "TWNK",
+            "name": "Hostess Brands, Inc. Class A Common Stock",
+            "sector": "Consumer Non-Durables",
+            "simple_name": "Hostess"
+          },
+          "id": "ecf97954-2503-4efa-9a05-4d34685e6812",
+          "reason": null,
+          "instrument_id": "ecf97954-2503-4efa-9a05-4d34685e6812",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "0f82ee60-f302-47a8-aef3-005210b20928",
+            "symbol": "AFRM",
+            "name": "Affirm Holdings, Inc. Class A Common Stock",
+            "sector": "Finance",
+            "simple_name": "Affirm"
+          },
+          "id": "0f82ee60-f302-47a8-aef3-005210b20928",
+          "reason": null,
+          "instrument_id": "0f82ee60-f302-47a8-aef3-005210b20928",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "d0c52a36-37b5-4124-ab8b-6d20151fe366",
+            "symbol": "DOMO",
+            "name": "Domo, Inc. Class B Common Stock",
+            "sector": "Technology Services",
+            "simple_name": "Domo"
+          },
+          "id": "d0c52a36-37b5-4124-ab8b-6d20151fe366",
+          "reason": null,
+          "instrument_id": "d0c52a36-37b5-4124-ab8b-6d20151fe366",
+          "instrument_sector": null
+        },
+        {
+          "content_type": "instrument",
+          "data": {
+            "instrument_id": "c386e939-eaf9-4ecd-8f50-ff7cbc2e7d0d",
+            "symbol": "VFS",
+            "name": "VinFast",
+            "sector": "Consumer Durables",
+            "simple_name": "VinFast"
+          },
+          "id": "c386e939-eaf9-4ecd-8f50-ff7cbc2e7d0d",
+          "reason": null,
+          "instrument_id": "c386e939-eaf9-4ecd-8f50-ff7cbc2e7d0d",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=top-movers",
+      "description": "Stocks making the biggest moves today.",
+      "ranking_version": "v0.1",
+      "id": "553d4bc6-1c90-45a6-9ca2-d73ff4c5d364",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Benzinga",
+            "title": "Watch New Video Of Tesla's Cybertruck Masquerading As Toyota Tundra",
+            "published_at": "2023-08-27T20:34:10.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "e39ed23a-7bd1-4587-b060-71988d9ef483",
+                "symbol": "TSLA",
+                "name": "Tesla, Inc. Common Stock",
+                "sector": null,
+                "simple_name": "Tesla"
+              }
+            ],
+            "url": "https://www.benzinga.com/markets/equities/23/08/34060734/watch-new-video-of-teslas-cybertruck-masquerading-as-toyota-tundra?utm_campaign=partner_feed&utm_source=robinhood.com&utm_medium=partner_feed&utm_content=ticker_page",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/gmAkM6MNlhJYzIJg-wjugYEd-GU/aHR0cHM6Ly9jZG4uYmVuemluZ2EuY29tL2ZpbGVzL2ltYWdlcy9zdG9yeS8yMDIzL1RpbGd1cmcsLE5ldGhlcmxhbmRzLC0sU2VwdGVtYmVyLDI1LCwyMDE2OixUZXNsYSxNb3RvcnMsQXNzZW1ibHksUGxhbnQuanBlZz93aWR0aD0xMjAwJmhlaWdodD04MDAmZml0PWNyb3A",
+              "width": 1024,
+              "height": 683,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "As the Cybertruck launch approaches, frenetic fans have been posting videos of a camouflaged electric pickup from Tesla, Inc.‘s TSLA on social media.\n\nWhat Happ",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Shanthi Rexaline",
+            "popularity": 0
+          },
+          "id": "9138d884-1297-3ae7-9443-af459a24273d",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "16ad73c4-b5c3-4b65-bfbf-eddd279242c7",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Benzinga",
+            "title": "Apple Plots iPad Revival With Radically Revamped Pro Version Launch In 2024, Says Gurman: Next-Gen M3 Chip, OLED Display And More",
+            "published_at": "2023-08-27T20:28:38.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "450dfc6d-5510-4d40-abfb-f633b7d9be3e",
+                "symbol": "AAPL",
+                "name": "Apple Inc. Common Stock",
+                "sector": null,
+                "simple_name": "Apple"
+              }
+            ],
+            "url": "https://www.benzinga.com/news/23/08/34060726/apple-plots-ipad-revival-with-radically-revamped-pro-version-launch-in-2024-says-gurman-next-gen-m3?utm_campaign=partner_feed&utm_source=robinhood.com&utm_medium=partner_feed&utm_content=ticker_page",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/pUCVKniqcu3qPlSyiXnaTUerl8Q/aHR0cHM6Ly9jZG4uYmVuemluZ2EuY29tL2ZpbGVzL2ltYWdlcy9zdG9yeS8yMDIzL0lwYWQsUHJvLDExLWluY2gsMjAyMSxNb2RlbCxXaXRoLEFwcGxlLE0xLENoaXAsT24uanBlZz93aWR0aD0xMjAwJmhlaWdodD04MDAmZml0PWNyb3A",
+              "width": 1024,
+              "height": 683,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "Apple, Inc’s AAPL iPad, which is currently underperforming the tech giant’s other major product categories, will reportedly get its first major overhaul in half",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Shanthi Rexaline",
+            "popularity": 0
+          },
+          "id": "a1d700ed-1a76-3a52-911b-097e666161f6",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "09ee1c56-7454-4a63-80d6-efe3ff250273",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Investor's Business Daily",
+            "title": "Dow Jones Futures Loom: Rally Attempt Still Fighting, What To Do Now; Tesla, Nvidia Lead Stocks To Watch",
+            "published_at": "2023-08-27T18:54:24.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb",
+                "symbol": "NVDA",
+                "name": "NVIDIA Corporation Common Stock",
+                "sector": null,
+                "simple_name": "NVIDIA"
+              }
+            ],
+            "url": "https://finance.yahoo.com/m/ebed3052-a464-32cd-8fb0-6d98aff3f276/dow-jones-futures-loom:-rally.html?.tsrc=rss",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/oGJ_S4qh6kkGyrmUFpsIQYHZTHA/aHR0cHM6Ly9tZWRpYS56ZW5mcy5jb20vZW4vaWJkLmNvbS85MDgwY2QxNWU2MGVkYmRmNDRmNDFmM2Q0NmRiMzQ3Mg",
+              "width": 1000,
+              "height": 563,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "Dow Jones Futures Loom: Rally Attempt Still Fighting, What To Do Now; Tesla, Nvidia Lead Stocks To Watch",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Ed Carson",
+            "popularity": 0
+          },
+          "id": "eb24c1ce-193b-3ceb-bc09-3dfc273d4bbc",
+          "reason": "position",
+          "instrument_id": "a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "d3129aa8-489e-4d7c-8880-2950c9a0d720",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Barron's",
+            "title": "Elon Musk Took Self-Driving Tesla Ride Around Palo Alto to Find Mark Zuckerberg",
+            "published_at": "2023-08-27T18:45:00.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "e39ed23a-7bd1-4587-b060-71988d9ef483",
+                "symbol": "TSLA",
+                "name": "Tesla, Inc. Common Stock",
+                "sector": null,
+                "simple_name": "Tesla"
+              }
+            ],
+            "url": "https://www.barrons.com/articles/elon-musk-self-driving-tesla-ride-zuckerberg-f9d4afa8?mod=bar_RHF",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/r0I9WmK7SPVHDt0LW3ZaLGRmphk/aHR0cHM6Ly9pbWFnZXMuYmFycm9ucy5jb20vaW0tODEyNTYyL3NvY2lhbA",
+              "width": 1280,
+              "height": 640,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "Text size\n\nTesla investing is an adventure. You never know what you’re going to get. Sometimes, for instance, the richest person on Earth and Tesla CEO Elon Mus",
+            "is_embedded": false,
+            "logo_hex_code": "2A4C84",
+            "authors": "Al Root",
+            "popularity": 0
+          },
+          "id": "3152cf7c-9e1c-316a-929f-525293f6a973",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "97116c2e-d003-4d4a-8afe-0382c2a109b0",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Business Insider",
+            "title": "Disney firefighters upset that DeSantis' board halted free park passes - Business Insider",
+            "published_at": "2023-08-27T16:59:00.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "2ed64ef4-2c1a-44d6-832d-1be84741dc41",
+                "symbol": "DIS",
+                "name": "The Walt Disney Company",
+                "sector": null,
+                "simple_name": "Disney"
+              }
+            ],
+            "url": "https://www.businessinsider.com/disney-firefighters-upset-desantis-board-free-park-passes-reedy-district-2023-8",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/IskcW68_ZN-5FoKdGi2aich4uRo/aHR0cHM6Ly9pLmluc2lkZXIuY29tLzY0ZTYyM2QyNGMxN2ZmMDAxOWJiMGQyNj93aWR0aD0xMjAwJmZvcm1hdD1qcGVn",
+              "width": 1200,
+              "height": 600,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "Disney firefighters are upset over the loss of free park passes, a perk they had long cherished.\n\n\"My only question is, what's next?\" one firefighter told the D",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "John L. Dorman",
+            "popularity": 0
+          },
+          "id": "e64077ce-5741-3015-8883-9f95de5057bb",
+          "reason": "position",
+          "instrument_id": "2ed64ef4-2c1a-44d6-832d-1be84741dc41",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "94b086da-2599-45a3-baec-345282a7d09f",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "VentureBeat",
+            "title": "Qualcomm's Snapdragon G Series aimed at starting a new generation of handheld gaming - VentureBeat",
+            "published_at": "2023-08-27T16:30:00.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "5ea5e761-1747-4911-beec-5a24af338329",
+                "symbol": "QCOM",
+                "name": "QUALCOMM Incorporated Common Stock",
+                "sector": null,
+                "simple_name": "Qualcomm"
+              }
+            ],
+            "url": "https://venturebeat.com/games/qualcomms-snapdragon-g-series-aimed-at-starting-a-new-generation-of-handheld-gaming/",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/ceuQZNJxWNQvQWL2ZOOq1O5yt7Q/aHR0cHM6Ly92ZW50dXJlYmVhdC5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDgvcXVhbGNvbW0tMi5qcGc_dz0xMjAwJnN0cmlwPWFsbA",
+              "width": 1200,
+              "height": 900,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "We're thrilled to announce the return of GamesBeat Summit Next, hosted in San Francisco this October, where we will explore the theme of \"Playing the Edge.\" App",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Dean Takahashi",
+            "popularity": 0
+          },
+          "id": "fb2b52e4-aa4a-3e08-a877-e2d074080e84",
+          "reason": "position",
+          "instrument_id": "5ea5e761-1747-4911-beec-5a24af338329",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "976acc20-adf8-4a43-8fe3-3c57f7724cf1",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Benzinga",
+            "title": "Disney's Stock Woes: Iger's Revival Strategies Face Investor Scrutiny Amid Decade-Low Shares",
+            "published_at": "2023-08-27T16:15:19.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "2ed64ef4-2c1a-44d6-832d-1be84741dc41",
+                "symbol": "DIS",
+                "name": "The Walt Disney Company",
+                "sector": null,
+                "simple_name": "Disney"
+              }
+            ],
+            "url": "https://www.benzinga.com/general/entertainment/23/08/34059947/disneys-stock-woes-igers-revival-strategies-face-investor-scrutiny-amid-decade-low-shares?utm_campaign=partner_feed&utm_source=robinhood.com&utm_medium=partner_feed&utm_content=ticker_page",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/mH8Ldg5cSIQui7VFHMTgvwaJ9WQ/aHR0cHM6Ly9jZG4uYmVuemluZ2EuY29tL2ZpbGVzL2ltYWdlcy9zdG9yeS8yMDIzLzA4LzI3L2JvYl9pZ2VyLmpwZz93aWR0aD0xMjAwJmhlaWdodD04MDAmZml0PWNyb3A",
+              "width": 1200,
+              "height": 800,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "Amidst challenging times, Walt Disney Co DIS is striving to regain its footing, with its stock showing signs of recovery after hitting its lowest point in almos",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Bibhu Pattnaik",
+            "popularity": 0
+          },
+          "id": "1e1c6018-d9f0-3658-b18a-2c4f84e708b0",
+          "reason": "position",
+          "instrument_id": "2ed64ef4-2c1a-44d6-832d-1be84741dc41",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "33b374e9-19fa-4e62-951f-766f256a1f7f",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Benzinga",
+            "title": "Elon Musk's Live FSD V12 Drive 'Amazing,' Says Analyst But Explains Why This Doesn't Change His Thinking",
+            "published_at": "2023-08-27T15:38:53.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "e39ed23a-7bd1-4587-b060-71988d9ef483",
+                "symbol": "TSLA",
+                "name": "Tesla, Inc. Common Stock",
+                "sector": null,
+                "simple_name": "Tesla"
+              }
+            ],
+            "url": "https://www.benzinga.com/analyst-ratings/analyst-color/23/08/34060298/elon-musks-live-fsd-v12-drive-amazing-says-analyst-but-explains-why-this-doesnt-cha?utm_campaign=partner_feed&utm_source=robinhood.com&utm_medium=partner_feed&utm_content=ticker_page",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/2kXrZNMfWeOS_XHF9P1yAL66yBw/aHR0cHM6Ly9jZG4uYmVuemluZ2EuY29tL2ZpbGVzL2ltYWdlcy9zdG9yeS8yMDIzL0Vsb25fTXVza181My5qcGVnP3dpZHRoPTEyMDAmaGVpZ2h0PTgwMCZmaXQ9Y3JvcA",
+              "width": 830,
+              "height": 553,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "On Friday, Tesla, Inc. TSLA CEO Elon Musk livestreamed his test drive of a Model 3 vehicle with the full self-driving software beta V12 version on social media",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Shanthi Rexaline",
+            "popularity": 0
+          },
+          "id": "997afa57-d03d-3ca0-bbe4-633b557a0367",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "a03bb632-57f3-477d-8506-173ab3e0fb5f",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Benzinga",
+            "title": "Steve Jobs' Enduring Legacy And Apple's Latest Deals: This Week In Appleverse",
+            "published_at": "2023-08-27T15:00:10.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "450dfc6d-5510-4d40-abfb-f633b7d9be3e",
+                "symbol": "AAPL",
+                "name": "Apple Inc. Common Stock",
+                "sector": null,
+                "simple_name": "Apple"
+              }
+            ],
+            "url": "https://www.benzinga.com/news/23/08/34060217/steve-jobs-enduring-legacy-and-apples-latest-deals-this-week-in-appleverse?utm_campaign=partner_feed&utm_source=robinhood.com&utm_medium=partner_feed&utm_content=ticker_page",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/buook_c6l9DCTFRDWkr7o_ppGjY/aHR0cHM6Ly9jZG4uYmVuemluZ2EuY29tL2ZpbGVzL2ltYWdlcy9zdG9yeS8yMDIzL1N0ZXZlX0pvYnNfd2lraW1lZGlhX2NvbW1vbnNfMi5qcGVnP3dpZHRoPTEyMDAmaGVpZ2h0PTgwMCZmaXQ9Y3JvcA",
+              "width": 771,
+              "height": 514,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "Apple enthusiasts have had quite a week, with a mix of nostalgia, exciting deals, and innovative patents. From remembering Steve Jobs’ legacy to the latest deal",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Benzinga Neuro",
+            "popularity": 0
+          },
+          "id": "519259f0-d00a-3056-8f12-1e8dce006ba1",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "043698c6-422c-482c-a5f2-43345edb5b0c",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "The Wall Street Journal",
+            "title": "This Company Is Nvidia’s AI Chip Partner—And Its Stock Is Soaring",
+            "published_at": "2023-08-27T15:00:00.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb",
+                "symbol": "NVDA",
+                "name": "NVIDIA Corporation Common Stock",
+                "sector": null,
+                "simple_name": "NVIDIA"
+              }
+            ],
+            "url": "https://finance.yahoo.com/m/82bd30aa-5304-31c1-a615-d77066b22959/this-company-is-nvidia%E2%80%99s-ai.html?.tsrc=rss",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/LexuD56LQ1VwLQmN3Awvg36VLUo/aHR0cHM6Ly9zLnlpbWcuY29tL255L2FwaS9yZXMvMS4yLzFFZExFM1NRWkRHcGREaUZXTkJDSkEtLS9ZWEJ3YVdROWFHbG5hR3hoYm1SbGNqdDNQVEV5TURBN2FEMDJNREEtL2h0dHBzOi8vbWVkaWEuemVuZnMuY29tL2VuL3dzai5jb20vZTYyZTRlYjUwMTAzNzY0M2Y5YWZjZTA5N2I3NzU2ZWI",
+              "width": 1200,
+              "height": 600,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "This Company Is Nvidia’s AI Chip Partner—And Its Stock Is Soaring\n\nSK Hynix has long been a major player in the boom-and-bust world of memory chips, but it hasn",
+            "is_embedded": false,
+            "logo_hex_code": "040D14",
+            "authors": "Jiyoung Sohn",
+            "popularity": 0
+          },
+          "id": "df4d6cd4-e7ca-36e6-b89c-6d3f200bf9af",
+          "reason": "position",
+          "instrument_id": "a4ecd608-e7b4-4ff3-afa5-f77ae7632dfb",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "f50696e6-0dc3-4221-9c55-3a0702f3874e",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Yahoo Finance",
+            "title": "Walt Disney May Have Issues Allocating Its Capital - Yahoo Finance",
+            "published_at": "2023-08-27T14:00:13.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "2ed64ef4-2c1a-44d6-832d-1be84741dc41",
+                "symbol": "DIS",
+                "name": "The Walt Disney Company",
+                "sector": null,
+                "simple_name": "Disney"
+              }
+            ],
+            "url": "https://finance.yahoo.com/news/walt-disney-nyse-dis-may-140013136.html",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/Zcf0AmuWu9YBg73ujE3HyiPsQaU/aHR0cHM6Ly9tZWRpYS56ZW5mcy5jb20vZW4vc2ltcGx5X3dhbGxfc3RfXzMxNi9lNmEyNzU2NmJmZTI3ZDMyM2ZkYzM1NmI5NDAzMGRiNg",
+              "width": 1194,
+              "height": 432,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "What are the early trends we should look for to identify a stock that could multiply in value over the long term? Typically, we'll want to notice a trend of gro",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Simply Wall St",
+            "popularity": 0
+          },
+          "id": "3c8c0d1b-df07-3953-abb4-07a1f468b184",
+          "reason": "position",
+          "instrument_id": "2ed64ef4-2c1a-44d6-832d-1be84741dc41",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "2bd8aff7-9e1c-40a9-950b-a9a62038f3be",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Simply Wall St",
+            "title": "Here's Why We Think Fortinet Might Deserve Your Attention Today - Simply Wall St",
+            "published_at": "2023-08-27T13:49:55.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "2346aaa6-b39f-480c-a42c-58134a6f349a",
+                "symbol": "FTNT",
+                "name": "Fortinet, Inc. Common Stock",
+                "sector": null,
+                "simple_name": "Fortinet"
+              }
+            ],
+            "url": "https://simplywall.st/stocks/us/software/nasdaq-ftnt/fortinet/news/heres-why-we-think-fortinet-nasdaqftnt-might-deserve-your-at-1",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/5-zyRjdRBaiPrAbxDnhuKiXNde4/aHR0cHM6Ly9pbWFnZXMuc2ltcGx5d2FsbC5zdC9hc3NldC9pbmR1c3RyeS84MDQyMDAwLWNob2ljZTEtbWFpbi1oZWFkZXIvMTU4NTE4NjY2OTA0MQ",
+              "width": 1194,
+              "height": 432,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "For beginners, it can seem like a good idea (and an exciting prospect) to buy a company that tells a good story to investors, even if it currently lacks a track",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "",
+            "popularity": 0
+          },
+          "id": "e3c238c0-43fb-3cc3-b6f1-695d41f3de32",
+          "reason": "position",
+          "instrument_id": "2346aaa6-b39f-480c-a42c-58134a6f349a",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "3623e6a4-b739-4d72-a028-3e0773998997",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_embedded_article",
+          "data": {
+            "source": "Reuters",
+            "title": "US trade chief flags concerns over India's license mandate for laptop, tablet imports",
+            "published_at": "2023-08-27T13:28:28.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "450dfc6d-5510-4d40-abfb-f633b7d9be3e",
+                "symbol": "AAPL",
+                "name": "Apple Inc. Common Stock",
+                "sector": null,
+                "simple_name": "Apple"
+              },
+              {
+                "instrument_id": "d9738524-2a2d-4987-9bf3-21b4c62ee092",
+                "symbol": "DELL",
+                "name": "Dell Technologies Inc.",
+                "sector": null,
+                "simple_name": "Dell"
+              }
+            ],
+            "url": null,
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://newsfeed-images.robinhood.com/embedded_content/article/dt%3D2023-08-27/source%3DReutersFeed/tag%3Areuters__com%2C2023%3Anewsml_LYNXMPEJ7Q03P?Expires=1693778927&Signature=Tptc26aD0sGsYNFxlDg~9AQ8hBZDN0O75jIO5uVrN3H6Mo8tSC~n4bO4GjfUmj3TX5SssEt82xouFirkMWYy2mfgrHi2TXkPvB8cIK5lj8odFCFGnH3HRRfPJheP3WEfb-w4veyiJ~aECC5pfe-hrrB9wKwfmXfskkKxjP~kbpndf92Xn0u2RovVuUnwOJ5H8eTe8AC6RmFl6GV2q3PUxke8pPhv-dRYI-Wj4V9TeZffqmlYzekpiBHMGfN6069PlvJrJp9MmKjsKVbDBBdjI6TC48cO~RiXwhLrYCwc6nm7u-11AcJbXJc279~R1dlfdM6lwR58mQq~QLAYLhjm6w__&Key-Pair-Id=APKAJGI5UX2N2UKL7WQQ",
+              "width": 800,
+              "height": 568,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "NEW DELHI (Reuters) -     U.S. trade chief Katherine Tai has raised concerns with India over the Asian nation's new order mandating licenses for the import of l",
+            "is_embedded": true,
+            "logo_hex_code": "FF8000",
+            "authors": [
+              "Shivangi  Acharya"
+            ],
+            "popularity": 0
+          },
+          "id": "8dabf945-37f8-371f-8c98-9cee3b098296",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "28648fc5-df03-4348-95e4-9a601d988cb1",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Simply Wall St",
+            "title": "Based On Its ROE, Is Ford Motor Company A High Quality Stock? - Simply Wall St",
+            "published_at": "2023-08-27T13:14:23.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "6df56bd0-0bf2-44ab-8875-f94fd8526942",
+                "symbol": "F",
+                "name": "Ford Motor Company",
+                "sector": null,
+                "simple_name": "Ford"
+              }
+            ],
+            "url": "https://simplywall.st/stocks/us/automobiles/nyse-f/ford-motor/news/based-on-its-roe-is-ford-motor-company-nysef-a-high-quality",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/GtGwrikf_vHhn3zr9yllCxwGe48/aHR0cHM6Ly9pbWFnZXMuc2ltcGx5d2FsbC5zdC9hc3NldC9jb21wYW55LWNvdmVyLzEwNjMzNS1tYWluLWhlYWRlci8xNTg1MTg2NjQ3ODI5",
+              "width": 1194,
+              "height": 432,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "One of the best investments we can make is in our own knowledge and skill set. With that in mind, this article will work through how we can use Return On Equity",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "",
+            "popularity": 0
+          },
+          "id": "c8289a8c-4b7f-3a88-8293-538ae49a9333",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "834f6c26-8d2e-465e-96b3-d615d9766a3e",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Yahoo Finance",
+            "title": "GoPro shareholders have endured a 42% loss from investing in the stock five years ago - Yahoo Finance",
+            "published_at": "2023-08-27T13:10:44.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "c74a93bc-58f3-4ccb-b4e3-30c65e2f88c8",
+                "symbol": "GPRO",
+                "name": "GoPro, Inc. Class A Common Stock",
+                "sector": null,
+                "simple_name": "GoPro"
+              }
+            ],
+            "url": "https://finance.yahoo.com/news/gopro-nasdaq-gpro-shareholders-endured-131044993.html",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/_en3nuQA7Vb1rTEyyj3lbGuKbcE/aHR0cHM6Ly9tZWRpYS56ZW5mcy5jb20vZW4vc2ltcGx5X3dhbGxfc3RfXzMxNi85NTM1Y2FlYjA3MjIyM2MyYWEyZWI2ZDBjOGRkNzQ4NQ",
+              "width": 1194,
+              "height": 432,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "For many, the main point of investing is to generate higher returns than the overall market. But even the best stock picker will only win with some selections.",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Simply Wall St",
+            "popularity": 0
+          },
+          "id": "1ce2fad3-8a4c-3e92-8e31-84e939c7cce3",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "51b177e9-b65a-4641-9b36-2640d456bd9a",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Yahoo Finance",
+            "title": "Why the US war with Big Tech could have unintended consequences - Yahoo Finance",
+            "published_at": "2023-08-27T13:00:45.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "50810c35-d215-4866-9758-0ada4ac79ffa",
+                "symbol": "MSFT",
+                "name": "Microsoft Corporation Common Stock",
+                "sector": null,
+                "simple_name": "Microsoft"
+              }
+            ],
+            "url": "https://finance.yahoo.com/news/why-the-us-war-with-big-tech-could-have-unintended-consequences-130045555.html",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/64i-63msvVfb9Ov-uUaE-CTQdoc/aHR0cHM6Ly9zLnlpbWcuY29tL255L2FwaS9yZXMvMS4yL2swLjFFUE9PX3dHQml2aE00d2dveEEtLS9ZWEJ3YVdROWFHbG5hR3hoYm1SbGNqdDNQVEV5TURBN2FEMDVOak0tL2h0dHBzOi8vcy55aW1nLmNvbS9vcy9jcmVhdHItdXBsb2FkZWQtaW1hZ2VzLzIwMjMtMDgvYTU0OTE1NzAtNDJiOC0xMWVlLWJiZmQtOWZhNjMzMWI5ZTk0",
+              "width": 1200,
+              "height": 963,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "The US government is taking on some of the country’s biggest tech giants in a series of high-stakes antitrust lawsuits. One lesson from past fights is that thes",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "",
+            "popularity": 0
+          },
+          "id": "33b06ac8-17ab-3661-ba09-c955ec00021e",
+          "reason": "position",
+          "instrument_id": "50810c35-d215-4866-9758-0ada4ac79ffa",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "e90c7741-5c22-494c-bc42-bc99abfd206c",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Simply Wall St",
+            "title": "Here's Why We Think Gilead Sciences Is Well Worth Watching",
+            "published_at": "2023-08-27T13:00:16.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "b6b70063-522f-465c-907b-ead86d694684",
+                "symbol": "GILD",
+                "name": "Gilead Sciences, Inc. Common Stock",
+                "sector": null,
+                "simple_name": "Gilead Sciences"
+              }
+            ],
+            "url": "https://finance.yahoo.com/news/heres-why-think-gilead-sciences-130016437.html?.tsrc=rss",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/4KjsyhzfEBoiBMmz7NGCdTSlW_c/aHR0cHM6Ly9tZWRpYS56ZW5mcy5jb20vZW4vc2ltcGx5X3dhbGxfc3RfXzMxNi84MTI0NTYwOWRkM2M0YjFlNjM4MDk0MDg2NTE0ZDRmYg",
+              "width": 1194,
+              "height": 432,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "It's common for many investors, especially those who are inexperienced, to buy shares in companies with a good story even if these companies are loss-making. So",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Simply Wall St",
+            "popularity": 0
+          },
+          "id": "9bf29527-1ae1-3351-8e57-b2d60edeba1f",
+          "reason": "position",
+          "instrument_id": "b6b70063-522f-465c-907b-ead86d694684",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "de5a3f54-3b39-4757-987e-523bb1bbb241",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Benzinga",
+            "title": "Elon Musk Insults Mark Zuckerberg, Saying 'He's Such A Chicken' — But Was He Duped By A Fake Post?",
+            "published_at": "2023-08-27T12:37:13.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "ebab2398-028d-4939-9f1d-13bf38f81c50",
+                "symbol": "META",
+                "name": "Meta Platforms, Inc. Class A Common Stock",
+                "sector": null,
+                "simple_name": "Meta Platforms"
+              }
+            ],
+            "url": "https://www.benzinga.com/news/23/08/34059754/elon-musk-insults-mark-zuckerberg-saying-hes-such-a-chicken-but-was-he-duped-by-a-fake-post?utm_campaign=partner_feed&utm_source=robinhood.com&utm_medium=partner_feed&utm_content=ticker_page",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/dtoMAHkBw2JIFaLCds3vNd-wqW0/aHR0cHM6Ly9jZG4uYmVuemluZ2EuY29tL2ZpbGVzL2ltYWdlcy9zdG9yeS8yMDIzL0Vsb25fTXVza19hbmRfTWFya19adWNrZXJiZXJnX1Bob3Rvc19ieV9LYXRoeV9IdXRjaGluc19hbmRfQWxleGFuZHJvc19NaWNoYWlsaWRpc19vbl9TaHV0dGVyc3RvY2tfOC5qcGVnP3dpZHRoPTEyMDAmaGVpZ2h0PTgwMCZmaXQ9Y3JvcA",
+              "width": 771,
+              "height": 514,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "Elon Musk once again took a direct jab at Mark Zuckerberg, calling him a “chicken.” However, it is uncertain if the post Musk reacted to was authored by the Met",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Ananya Gairola",
+            "popularity": 0
+          },
+          "id": "942648b2-446d-3595-941f-213dac8e33b3",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "1e123837-d778-4207-b585-cb576894afa1",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Simply Wall St",
+            "title": "Have Insiders Sold Home Depot Shares Recently? - Simply Wall St",
+            "published_at": "2023-08-27T12:23:25.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "599dd133-44d3-4c1e-b992-eb08b7ab7faa",
+                "symbol": "HD",
+                "name": "Home Depot, Inc.",
+                "sector": null,
+                "simple_name": "Home Depot"
+              }
+            ],
+            "url": "https://simplywall.st/stocks/us/retail/nyse-hd/home-depot/news/have-insiders-sold-home-depot-shares-recently",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/iI4T0znfEGL_Vht6rNKi7RgJQWw/aHR0cHM6Ly9pbWFnZXMuc2ltcGx5d2FsbC5zdC9hc3NldC9jb21wYW55LWNvdmVyLzI3ODY3OS1tYWluLWhlYWRlci8xNTg1MTg3MjMxMzE4",
+              "width": 1194,
+              "height": 432,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "We wouldn't blame The Home Depot, Inc. ( ) shareholders if they were a little worried about the fact that Teresa Roseborough, the Executive VP recently netted a",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "",
+            "popularity": 0
+          },
+          "id": "3a817a0c-a025-32b0-a097-274f83334440",
+          "reason": "position",
+          "instrument_id": "599dd133-44d3-4c1e-b992-eb08b7ab7faa",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "335801f2-e9dc-4de0-99a0-bfd458f30432",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Benzinga",
+            "title": "UAW Strike Would Be A 'Gut Punch' To GM And Ford, Says Analyst: 'Delicate Balancing Act For Barra And Farley'",
+            "published_at": "2023-08-26T22:05:18.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "6df56bd0-0bf2-44ab-8875-f94fd8526942",
+                "symbol": "F",
+                "name": "Ford Motor Company",
+                "sector": null,
+                "simple_name": "Ford"
+              },
+              {
+                "instrument_id": "48bbe4a0-d167-4bfe-8d3b-494f9bb56350",
+                "symbol": "GM",
+                "name": "General Motors Company",
+                "sector": null,
+                "simple_name": "GM"
+              }
+            ],
+            "url": "https://www.benzinga.com/top-stories/23/08/34057024/uaw-strike-would-be-a-gut-punch-to-gm-and-ford-says-analyst-delicate-balancing-act-for-barra-and-far?utm_campaign=partner_feed&utm_source=robinhood.com&utm_medium=partner_feed&utm_content=ticker_page",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/jei1-Hz17Buzt9Fs5NfQAqpfs84/aHR0cHM6Ly9jZG4uYmVuemluZ2EuY29tL2ZpbGVzL2ltYWdlcy9zdG9yeS8yMDIzL0F1dG9tb2JpbGUsQXNzZW1ibHksTGluZSxQcm9kdWN0aW9uXzIuanBlZz93aWR0aD0xMjAwJmhlaWdodD04MDAmZml0PWNyb3A",
+              "width": 888,
+              "height": 592,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "The United Auto Workers on Friday announced that 97% of members belonging to the Detroit \"Big Three\" automakers — namely General Motors Corp. GM, Ford Motor Co.",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Shanthi Rexaline",
+            "popularity": 0
+          },
+          "id": "b448563a-9435-3136-922c-ca400371b219",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "4f044e88-98cf-4cb8-a0d7-472e5dd7976f",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Benzinga",
+            "title": "Meta's Office Return Strategy Draws Criticism: Are Corporates Struggling With Trust?",
+            "published_at": "2023-08-26T20:19:41.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "ebab2398-028d-4939-9f1d-13bf38f81c50",
+                "symbol": "META",
+                "name": "Meta Platforms, Inc. Class A Common Stock",
+                "sector": null,
+                "simple_name": "Meta Platforms"
+              }
+            ],
+            "url": "https://www.benzinga.com/news/23/08/34055528/metas-office-return-strategy-draws-criticism-are-corporates-struggling-with-trust?utm_campaign=partner_feed&utm_source=robinhood.com&utm_medium=partner_feed&utm_content=ticker_page",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/OS_x4qRYVdRn1ItBBjhJbdGoBZE/aHR0cHM6Ly9jZG4uYmVuemluZ2EuY29tL2ZpbGVzL2ltYWdlcy9zdG9yeS8yMDIzLzA4LzI2L21hcmtfenVja2VyYmVyZ18wMV93aWtpbWVkaWFfY29tbW9ucy5qcGc_d2lkdGg9MTIwMCZoZWlnaHQ9ODAwJmZpdD1jcm9w",
+              "width": 1200,
+              "height": 800,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "Meta Platforms Inc.'s META recently stirred discussions in the corporate world due to the company's updated return-to-office strategy.\n\nMeta employees will soon",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Bibhu Pattnaik",
+            "popularity": 0
+          },
+          "id": "92a3f775-daa5-3c9b-a872-e310c66c8832",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "e8f76d3c-70e0-44e8-a69d-61d1251de2e5",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Benzinga",
+            "title": "Microsoft's Phil Spencer On Preserving Xbox 360 Games: 'We Would Love To Find Solutions'",
+            "published_at": "2023-08-26T13:43:21.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "50810c35-d215-4866-9758-0ada4ac79ffa",
+                "symbol": "MSFT",
+                "name": "Microsoft Corporation Common Stock",
+                "sector": null,
+                "simple_name": "Microsoft"
+              }
+            ],
+            "url": "https://www.benzinga.com/general/gaming/23/08/34046306/microsofts-phil-spencer-on-preserving-xbox-360-games-we-would-love-to-find-solutions?utm_campaign=partner_feed&utm_source=robinhood.com&utm_medium=partner_feed&utm_content=ticker_page",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/blGAR14-I9YIvGguRA29XqTJsWk/aHR0cHM6Ly9jZG4uYmVuemluZ2EuY29tL2ZpbGVzL2ltYWdlcy9zdG9yeS8yMDIzLzA4LzI1L3BoaWxfc3BlbmNlcl94Ym94X21pZ3VlbF9sYWdvYV9vbl9zaHV0dGVyc3RvY2tfYW5kX3Bob3RvX2NvdXJ0ZXN5X2V2cnlkYXl2cl9vbl9mbGlja3IuanBnP3dpZHRoPTEyMDAmaGVpZ2h0PTgwMCZmaXQ9Y3JvcA",
+              "width": 1200,
+              "height": 800,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "Phil Spencer, the head of Xbox, said that preserving Xbox 360 games, which will become inaccessible once the console's digital store shuts down in 2024, is a to",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Franca Quarneti",
+            "popularity": 0
+          },
+          "id": "c953e0e0-6736-33dc-b155-6a038d707619",
+          "reason": "position",
+          "instrument_id": "50810c35-d215-4866-9758-0ada4ac79ffa",
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "c26c53b5-d289-444a-b5ef-2b3c17e947ba",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Simply Wall St",
+            "title": "Bank of America Could Be A Buy For Its Upcoming Dividend",
+            "published_at": "2023-08-26T12:38:18.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "0dd811b3-7047-448d-96e0-7bf6ee4cfe45",
+                "symbol": "BAC",
+                "name": "Bank of America Corporation",
+                "sector": null,
+                "simple_name": "Bank of America"
+              },
+              {
+                "instrument_id": "879040e9-7086-4e71-b43f-24230eba7b0b",
+                "symbol": "BAC-B",
+                "name": "Bank of America Corporation Depositary Shares, each representing a 1/1,000th interest in a share of",
+                "sector": null,
+                "simple_name": ""
+              }
+            ],
+            "url": "https://finance.yahoo.com/news/bank-america-nyse-bac-could-123818408.html?.tsrc=rss",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/vigdnNUqtmGf4JYYltRE0ef8TsA/aHR0cHM6Ly9tZWRpYS56ZW5mcy5jb20vZW4vc2ltcGx5X3dhbGxfc3RfXzMxNi8yYzcxNDlmMjk1ZDY3NzJlN2NiNWFiMjM3YmMwZTAwOQ",
+              "width": 1194,
+              "height": 432,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "Some investors rely on dividends for growing their wealth, and if you're one of those dividend sleuths, you might be intrigued to know that Bank of America Corp",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Simply Wall St",
+            "popularity": 0
+          },
+          "id": "81204ce7-acbd-3663-9ec6-061465eede64",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "4ef2c3aa-2767-4c2c-9da3-cafec0ed3481",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    },
+    {
+      "display_label": "Company",
+      "category": "company",
+      "templates": [
+        "news_regular"
+      ],
+      "contents": [
+        {
+          "content_type": "feed_article",
+          "data": {
+            "source": "Financial Times",
+            "title": "SoftBank seeks to build investment war chest on back of Arm IPO",
+            "published_at": "2023-08-26T11:00:27.000000Z",
+            "related_instruments": [
+              {
+                "instrument_id": "b2e06903-5c44-46a4-bd42-2a696f9d68e1",
+                "symbol": "BABA",
+                "name": "American Depositary Shares, each represents eight Ordinary Shares",
+                "sector": null,
+                "simple_name": "Alibaba"
+              }
+            ],
+            "url": "https://finance.yahoo.com/m/8fa9e71c-cf36-3319-b46c-38880164bf5c/softbank-seeks-to-build.html?.tsrc=rss",
+            "feedback": {
+              "positive_count": 0
+            },
+            "media": {
+              "url": "https://images.robinhood.com/IwHImOqd9uS5LAq9eduOeky_Zds/aHR0cHM6Ly9zLnlpbWcuY29tL2N2L2FwaXYyL3NvY2lhbC9pbWFnZXMveWFob29fZGVmYXVsdF9sb2dvLTEyMDB4MTIwMC5wbmc",
+              "width": 1200,
+              "height": 1200,
+              "mimetype": "image"
+            },
+            "preview_media": null,
+            "preview_text": "Analysts, who based their projections on the Japanese group’s past dealings, said SoftBank could raise almost half that sum if it takes advantage of Arm’s upcom",
+            "is_embedded": false,
+            "logo_hex_code": null,
+            "authors": "Kana Inagaki In Tokyo,Leo Lewis",
+            "popularity": 0
+          },
+          "id": "51d88bb2-2c88-363e-8920-2a8bf1657912",
+          "reason": "watchlist",
+          "instrument_id": null,
+          "instrument_sector": null
+        }
+      ],
+      "url": "https://dora.robinhood.com/feed/?category=company",
+      "description": null,
+      "ranking_version": "v0.1",
+      "id": "5948fd53-b8cd-4d5c-8210-ce69f1883e4b",
+      "logo_asset_name": null,
+      "display_label_info_action": null,
+      "feed_type": null,
+      "feed_location": null
+    }
+  ]
+}

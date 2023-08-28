@@ -51,10 +51,11 @@ func printFeed(cmd *cobra.Command, feeds []robinhood.Feed) {
 	default:
 		table := TableWriter(output)
 
-		table.SetHeader([]string{"id", ""})
+		table.SetHeader([]string{"id", "category", "displayLabel", "url", "rankingVersion", "templates"})
 		for _, f := range feeds {
 			table.Append([]string{
 				f.ID,
+				f.Category,
 				f.DisplayLabel,
 				f.URL,
 				f.RankingVersion,
