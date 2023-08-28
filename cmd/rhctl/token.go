@@ -13,16 +13,16 @@ var tokenCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		ctx := context.Background()
 
-		_, err := GetToken(ctx)
+		_, err := getApiToken(ctx)
 		if err != nil {
 			panic(err)
 		}
 		fmt.Printf("sucessfully logged in! \n")
 	}}
 
-func GetToken(ctx context.Context) (*auth.AuthResponse, error) {
+func getApiToken(ctx context.Context) (*auth.AuthResponse, error) {
 
-	auth := &auth.AuthRequest{
+	a := &auth.AuthRequest{
 		Username:    c.Username,
 		Password:    c.Password,
 		GrantType:   c.GrantType,
@@ -33,7 +33,7 @@ func GetToken(ctx context.Context) (*auth.AuthResponse, error) {
 		//MfaCode:     "",
 	}
 
-	authResponse, err := auth.GetToken(ctx, c.Host)
+	authResponse, err := a.GetToken(ctx, c.Host)
 	if err != nil {
 		return nil, err
 	}

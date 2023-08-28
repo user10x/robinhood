@@ -41,9 +41,17 @@ var listInstrumentsCmd = &cobra.Command{
 
 		ctx := context.Background()
 
-		ar, err := GetToken(ctx)
+		ar, err := getApiToken(ctx)
+
+		if err != nil {
+			return err
+		}
 
 		instruments, err := instruments.ListInstruments(ctx, c.Host, ar.AccessToken)
+
+		if err != nil {
+			return err
+		}
 		if len(instruments.Results) < limit {
 			limit = len(instruments.Results)
 		}
@@ -62,20 +70,20 @@ func printInstruments(cmd *cobra.Command, instruments []robinhood.Instrument) {
 	default:
 		table := TableWriter(output)
 		table.SetHeader([]string{"id", "name", "symbol", "country", "listDate", "market", "tradeRatio", "test", "spac", "ipoasupportdsp"})
-		for _, r := range instruments {
+		for _, inst := range instruments {
 			table.Append([]string{
 				//r.Results,
-				r.Id,
-				r.Name,
-				r.Symbol,
-				r.Country,
-				r.ListDate,
-				r.Market,
+				inst.Id,
+				inst.Name,
+				inst.Symbol,
+				inst.Country,
+				inst.ListDate,
+				inst.Market,
 				//r.InternalHaltReason,
-				r.DayTradeRatio,
-				strconv.FormatBool(r.IsTest),
-				strconv.FormatBool(r.IsSpac),
-				strconv.FormatBool(r.IpoAccessSupportsDsp),
+				inst.DayTradeRatio,
+				strconv.FormatBool(inst.IsTest),
+				strconv.FormatBool(inst.IsSpac),
+				strconv.FormatBool(inst.IpoAccessSupportsDsp),
 				//r.CreatedAtTime.AsTime().Format(time.RFC3339),
 				//strconv.FormatBool(r.IsActive),
 			})

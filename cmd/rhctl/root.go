@@ -13,6 +13,7 @@ func init() {
 	c = config.NewConfig()
 	rootCmd.AddCommand(tokenCmd)
 	rootCmd.AddCommand(instrumentsCmd)
+	rootCmd.AddCommand(feedCmd)
 
 }
 

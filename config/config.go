@@ -8,6 +8,7 @@ import (
 
 type Config struct {
 	Host        string
+	DoraHost    string
 	Project     string
 	Username    string
 	Password    string
@@ -38,6 +39,7 @@ func NewConfig() *Config {
 		ExpiresIn:   expiresIn,
 		DeviceToken: os.Getenv("DEVICE_TOKEN"),
 		Scope:       os.Getenv("SCOPE"),
+		DoraHost:    os.Getenv("DORA_HOST"),
 	}
 
 	return config
