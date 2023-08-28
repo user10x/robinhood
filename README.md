@@ -14,11 +14,11 @@ Todo:
 * Add account querying (easy)
 * submit orders (easy)
 * Recursive Query if next is not nil (to all queries)
-* List All instruments
+* List/Get All instruments (does not require auth)
 * Add tests for schema change, json locally
 * Get the lists
 * Get the most famous list
-* Get by state/industry/or any other category
+* Get by state/industry/or any other category like ipo
 
 
 Improvements:
