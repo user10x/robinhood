@@ -21,6 +21,7 @@ Todo:
 * Get by state/industry/or any other category
 
 
-
+Improvements:
+Fix output json, piping to jq breaks limit
 
 ```
