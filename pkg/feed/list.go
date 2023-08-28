@@ -9,9 +9,9 @@ import (
 	"robinhood/pkg/models/client/robinhood"
 )
 
-func ListFeeds(ctx context.Context, host string, bearerToken string) ([]robinhood.Feed, error) {
+func ListFeeds(ctx context.Context, host string, suffix, bearerToken string) ([]robinhood.Feed, error) {
 	var feeds *robinhood.Feeds
-	body, err := internal.NewApiRequestGetData(ctx, host, "feed/", bearerToken)
+	body, err := internal.NewApiRequestGetData(ctx, host, suffix, bearerToken)
 	if err != nil {
 		return nil, err
 	}

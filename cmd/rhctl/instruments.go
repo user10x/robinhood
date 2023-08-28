@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"github.com/spf13/cobra"
 	"os"
@@ -19,6 +20,7 @@ func init() {
 	instrumentsCmd.AddCommand(listInstrumentsCmd)
 	listInstrumentsCmd.Flags().Int("limit", 10, "limit output")
 	listInstrumentsCmd.Flags().String("order-by", "desc", "order by column")
+	listInstrumentsCmd.Flags().String("output", "desc", "order by column")
 }
 
 var listInstrumentsCmd = &cobra.Command{
@@ -65,7 +67,7 @@ func printInstruments(cmd *cobra.Command, instruments []robinhood.Instrument) {
 	output := os.Stdout
 	switch outputFormat {
 	case "json":
-		e := newJSONEncoder(output)
+		e := json.NewEncoder(output)
 		_ = e.Encode(instruments)
 	default:
 		table := TableWriter(output)
