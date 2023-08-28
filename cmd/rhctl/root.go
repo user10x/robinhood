@@ -14,6 +14,7 @@ func init() {
 	rootCmd.AddCommand(tokenCmd)
 	rootCmd.AddCommand(instrumentsCmd)
 	rootCmd.AddCommand(feedCmd)
+	rootCmd.AddCommand(orderCmd)
 
 }
 

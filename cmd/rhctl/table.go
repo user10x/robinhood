@@ -13,7 +13,7 @@ func TableWriter(out io.Writer) *tablewriter.Table {
 	//table.SetColumnSeparator("|")
 	//table.SetRowLine(true)
 	//table.SetAlignment(tablewriter.ALIGN_LEFT)
-	//table.SetAutoWrapText(true)
+	table.SetAutoWrapText(true)
 	//table.NumLines()
 	//table.SetRowLine(true)
 	return table
