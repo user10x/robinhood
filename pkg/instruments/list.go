@@ -25,8 +25,8 @@ func ListInstruments(ctx context.Context, host string, bearerToken string) (*rob
 
 }
 
-func ListInstrumentsByListId(ctx context.Context, host string, bearerToken string) (*robinhood.DailyMovers, error) {
-	var results *robinhood.DailyMovers
+func ListInstrumentsByListId(ctx context.Context, host string, bearerToken string) (*robinhood.ListResultsByType, error) {
+	var results *robinhood.ListResultsByType
 	body, err := internal.NewApiRequestGetData(ctx, host, "midlands/lists/items/?list_id=eddbebe5-34cc-4df1-953c-d3e3cb55bc19&local_midnight=2023-08-29T07%3A00%3A00.000Z", bearerToken)
 	if err != nil {
 		return nil, err

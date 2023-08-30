@@ -134,7 +134,7 @@ var listInstrumentsByListType = &cobra.Command{
 		return nil
 	}}
 
-func printListByType(cmd *cobra.Command, result *robinhood.DailyMovers) {
+func printListByType(cmd *cobra.Command, result *robinhood.ListResultsByType) {
 	outputFormat, _ := cmd.Flags().GetString("output")
 	output := os.Stdout
 	switch outputFormat {
