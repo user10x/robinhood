@@ -4,6 +4,7 @@ go 1.20
 
 require (
 	cloud.google.com/go/firestore v1.12.0
+	github.com/dustin/go-humanize v1.0.1
 	github.com/joho/godotenv v1.5.1
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/spf13/cobra v1.7.0
