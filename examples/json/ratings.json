@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "num_buy_ratings": 9,
+    "num_hold_ratings": 8,
+    "num_sell_ratings": 1
+  },
+  "ratings": [
+    {
+      "published_at": "2023-08-04T10:08:22Z",
+      "type": "sell",
+      "text": "Any potential breakthrough in gene therapy leading to the ability to enhance regeneration of islet cells and improve native pancreatic function could significantly hurt the market for insulin pumps."
+    },
+    {
+      "published_at": "2023-08-04T10:08:22Z",
+      "type": "sell",
+      "text": "Tandem is still struggling to move into the black a decade after launching its first pump."
+    },
+    {
+      "published_at": "2023-08-04T10:08:22Z",
+      "type": "sell",
+      "text": "Medtronic arguably enjoys more accurate and advanced algorithms thanks to its far larger patient user base and proprietary data—a major reason why it remains a step ahead of Tandem in closing the loop. "
+    },
+    {
+      "published_at": "2023-08-04T10:08:22Z",
+      "type": "buy",
+      "text": "Outside of the type 1 diabetes market, there are also significant opportunities for growth in the insulin-dependent type 2 patient pool."
+    },
+    {
+      "published_at": "2023-08-04T10:08:22Z",
+      "type": "buy",
+      "text": "Tandem has bulked up its product pipeline with its smaller tubed t:slim Mobi, the tubeless Mobi, and the Sigi patch pump that is tubeless and can be adhered directly onto the body."
+    },
+    {
+      "published_at": "2023-08-04T10:08:22Z",
+      "type": "buy",
+      "text": "Tandem’s t:slim X2 features a low-profile, color touchscreen that is very user-friendly for patients new to insulin pumps.\r\n"
+    }
+  ],
+  "instrument_id": "4966fbab-38d6-4eaa-969f-e26e262d8e20",
+  "ratings_published_at": "2023-08-04T10:08:22Z"
+}

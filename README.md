@@ -21,6 +21,9 @@ Todo:
 * Get by state/industry/or any other category like ipo
 
 
+Get instrument by symbol
+https://api.robinhood.com/instruments/?active_instruments_only=false&symbol=TNDM
+
 Improvements:
 Fix output json, piping to jq breaks limit
 

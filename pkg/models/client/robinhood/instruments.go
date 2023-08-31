@@ -79,3 +79,18 @@ type ListResultsByType struct {
 		Price                      float64     `json:"price"`
 	} `json:"results"`
 }
+
+type InstrumentRating struct {
+	Summary struct {
+		NumBuyRatings  int `json:"num_buy_ratings"`
+		NumHoldRatings int `json:"num_hold_ratings"`
+		NumSellRatings int `json:"num_sell_ratings"`
+	} `json:"summary"`
+	Ratings []struct {
+		PublishedAt time.Time `json:"published_at"`
+		Type        string    `json:"type"`
+		Text        string    `json:"text"`
+	} `json:"ratings"`
+	InstrumentId       string    `json:"instrument_id"`
+	RatingsPublishedAt time.Time `json:"ratings_published_at"`
+}

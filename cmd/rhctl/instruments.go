@@ -26,6 +26,9 @@ func init() {
 	listInstrumentsByListType.Flags().String("type", "t", "type of the list")
 	listInstrumentsByListType.Flags().StringP("output", "o", "", "output format json")
 
+	instrumentsCmd.AddCommand(getRatingsCmd)
+	getRatingsCmd.Flags().String("id", "", "get rating by id")
+
 }
 
 var listInstrumentsCmd = &cobra.Command{
@@ -171,3 +174,34 @@ func printListByType(cmd *cobra.Command, result *robinhood.ListResultsByType) {
 		table.Render()
 	}
 }
+
+var getRatingsCmd = &cobra.Command{
+	Use:   "get",
+	Short: "get instruments by id/symbol",
+	RunE: func(cmd *cobra.Command, args []string) error {
+
+		id, err := cmd.Flags().GetString("id")
+		if err != nil {
+			return err
+		}
+		if id == "" {
+			return nil
+		}
+
+		ctx := context.Background()
+
+		ar, err := getApiToken(ctx)
+
+		if err != nil {
+			return err
+		}
+
+		rating, err := instruments.GetRatingById(ctx, c.Host, ar.AccessToken, id)
+
+		fmt.Println(rating)
+
+		if err != nil {
+			return err
+		}
+		return nil
+	}}
