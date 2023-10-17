@@ -1,13 +1,14 @@
 ```
-All commands
-go run cmd/rhctl/*.go instruments -h
-go run cmd/rhctl/*.go instruments list --limit 5
-go run cmd/rhctl/*.go instruments list --limit 100 -o json
-go run cmd/rhctl/*.go feed -h
-go run cmd/rhctl/*.go feed list
-go run cmd/rhctl/*.go feed list --output json
-go run cmd/rhctl/*.go feed list popular_list --output json
-go run cmd/rhctl/*.go orders list
+All commands for robinhood control
+
+rhctl instruments -h
+rhctl instruments list --limit 5
+rhctl instruments list --limit 100 -o json
+rhctl feed -h
+rhctl feed list
+rhctl feed list --output json
+rhctl feed list popular_list --output json
+rhctl orders list
 
 Todo:
 
